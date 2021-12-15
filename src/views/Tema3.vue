@@ -5,27 +5,28 @@
 
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span.text-white 
-      h1 
+        span.text-white 3
+      h1 Documentar el proceso de calidad de 
+        em software
 
     .row.mb-5
       .col-lg-6
-        p 
+        p La documentación de productos de software son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar las arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto software y su mantenimiento en el futuro resaltando que no solo se documenta un proceso respecto a la calidad, sino, también las fases del desarrollo del software, requerimientos, análisis, diseño, construcción y pruebas. Sin embargo, cuando se requiere documentar un proceso de calidad de software es pertinente tener en cuenta tanto el plan de pruebas como los resultados arrojados que se muestran en los apartados siguientes. 
       .col-lg-6.order-first.order-lg-last
         figure
           img(src='@/assets/curso/t3/f1.jpg' alt='imagen relacionada')
         
     #t_3_1.titulo-segundo.color-acento-contenido
-      h2 
+      h2 3.1 Diseñar los instrumentos de calidad de software
 
-    p 
+    p Los instrumentos de calidad de software al ser combinados con otras partes son útiles al momento de realizar mediciones, observar y almacenar datos que sean verificables y que se puedan utilizar para mejoras continuas en los procesos de calidad de un producto. Entonces para documentar pruebas de software es importante ver el plan de pruebas como un instrumento clave en el diseño y creación de pruebas de software.
     img(src='@/assets/curso/t3/f2.jpg' alt='imagen relacionada').mb-5
     
     .row.align-items-center.mb-5
       .col-lg-6
-        h3 
-        p 
-        p 
+        h3 Plan de pruebas
+        p Un instrumento de gran utilidad para estructurar el proceso de pruebas y la documentación es el plan de pruebas. Por lo tanto, la finalidad es suministrar la información requerida para planear y controlar las actividades relacionadas con las pruebas en el proceso de desarrollo de un producto software. Presenta el enfoque para realizar la verificación de los componentes del producto. Todo proceso de desarrollo de software debe contar con la implementación de la fase de pruebas. 
+        p El personal que se dedica a ejecutar pruebas de software requiere de un plan de pruebas de software, cuyo objetivo es comunicar a todos los involucrados del proyecto: los entregables, ítems a ser certificados, criterios de aprobación y fallos, criterios de suspensión y reanudación, las necesidades de ambiente, las capacitaciones necesarias para los integrales del equipo, riesgos y el laboratorio de usabilidad.
       .col-lg-2
       .col-lg-6
         figure
