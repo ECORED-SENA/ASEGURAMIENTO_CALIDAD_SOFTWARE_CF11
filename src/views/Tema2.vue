@@ -51,7 +51,7 @@
 
     p.mb-5 La metodología en cascada está acotada por cada una de las fases o etapas anteriores, dado que no es posible acceder a la fase de diseño sino se ha terminado la fase de requisitos, por lo cual son de naturaleza bloqueante. Este tipo de metodologías también es conocida como tradicional, ya que fueron los primeros modelos que se incorporaron en el proceso de desarrollo de software, aunque con el tiempo se identificaron las problemáticas al necesitar obtener productos a corto plazo. 
 
-    .bg1
+    .bg1.pt-4
       .row.align-items-center.justify-content-center.mb-5
         .col-lg-5(data-aos='fade-right')
           h3 Representación del modelo de cascada
@@ -207,11 +207,11 @@
     p En el siguiente recurso podrá apreciar las características de cada una de las normas, en relación a los productos de 
       em software
       | , veamos:
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-secundario.mb-5.50pc
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/t2/f15.svg', alt='división ISO/IEC')
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="35%" y="16%" numero="")
         h5 Las normas de esta división presentan modelos detallados de calidad, así como las características para calidad externa, interna y en uso del producto 
           em software 
           |  Actualmente esta división está conformada por:
@@ -222,7 +222,7 @@
         p ISO/IEC 25012 - 
           em Data Quality model
           | : describe un modelo general para la calidad de los datos, específicamente a los datos que se encuentran almacenados de forma estructurada y hacen parte de un sistema de información.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="71%" y="16%" numero="")
         h5 Involucran un modelo de referencia de la medición de la calidad del producto, descripciones de medidas de calidad (externa, interna y en uso) así como guías con prácticas para su respectiva aplicación. Actualmente esta división está conformada por:
         p ISO/IEC 25020 - Measurement reference model and guide: representa una explicación introductoria y un modelo de referencia común a los elementos de medición de la calidad.
         p Proporciona una guía para que los usuarios apliquen y desarrollen medidas planteadas por normas ISO.
@@ -240,7 +240,7 @@
         p ISO/IEC 25024 - 
           em Measurement of data quality
           | : especifica métricas para efectuar la medición de la calidad de datos.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="32%" y="85%" numero="")
         h5 Las normas de esta división especifican requerimientos de calidad que podrían ser usados en el proceso de elicitación de requisitos de calidad del producto 
           em software 
           | a desarrollar. Actualmente esta división está conformada por: 
@@ -248,7 +248,7 @@
           em Quality requirements
           | : contiene una serie de recomendaciones para efectuar la especificación de los requisitos de calidad del producto 
           em software.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="75%" y="85%" numero="")
         h5 Esta división involucra normas que aportan guías, recomendaciones y requerimientos para proceder a realizar el proceso de evaluación del producto 
           em software 
           |  Actualmente esta división está conformada por:
@@ -416,22 +416,22 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/t2/f22.svg', alt='Niveles de capacidad')
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="8.1%" y="92.1%" numero="")
         h4 Nivel de capacidad 0: incompleta
         p Estar en el nivel de capacidad 0, indica que un proceso se realiza parcialmente o no se realiza, dado que uno o más objetivos no se cumplen y no presenta objetivos genéricos. 
       //.fcp20.p-4(x="20%" y="20%" numero="")
         h4 
         p 
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="36.55%" y="63.3%" numero="")
         h4 Nivel de capacidad 2: administración
         p Se denominan como procesos administrados, ya que se puede contar con una planeación, una trazabilidad y un control en los proyectos individuales o grupales. 
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="50.8%" y="49.4%" numero="")
         h4 Nivel de capacidad 3: definir
         p Son procesos que están diseñados a partir de un conjunto de procesos estándar en la organización, con productos de trabajo, modelos, medidas y otras características relacionadas a herramientas que faciliten la identificación y ejecución del proceso. 
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="64.7%" y="33.5%" numero="")
         h4 Nivel de capacidad 4: administrada cuantitativamente
         p En este nivel se realiza un seguimiento al proceso por medio de métricas estadísticas y otras técnicas cuantitativas, para poder establecer el rendimiento de los procesos, con esto se realiza una gestión en el proceso. En este nivel los atributos de calidad y rendimiento se entienden como términos estadísticos usados para la administración del producto a lo largo de la vida del proceso. 
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="79.11%" y="20.15%" numero="")
         h4 Nivel de capacidad 5: optimización 
         p Este nivel se centra en la mejora continua del rendimiento de los procesos por medio de mejoras continuas que buscan la innovación. Mientras que en el nivel 4 el enfoque es crear un marco de referencia y las mediciones de rendimiento, el nivel 5 se centra en buscar causas comunes para los problemas y arreglar esos problemas de proceso.  
 
@@ -450,11 +450,11 @@
           p.mb-0 La calidad de software es un área importante en el proceso de desarrollo que busca estar en constante validación de la calidad del producto software, por lo general en el diseño de un plan de aseguramiento de calidad. Por ello es de importancia tener en cuenta los siguientes conceptos y su aplicación práctica en el ciclo de desarrollo de software: 
 
     .col-lg-10.mx-auto.mb-5.bg1.tarjeta.p-5
-      .px-5.bg-2.mb-4
+      .px-5.py-4.bg2.mb-4
         h3 Calidad
         p Es un conglomerado de características de una entidad, que son esenciales y que además permiten calificar su valor.
         p A nivel de empresa, está relacionado con el conjunto de estándares y normas que debe tener un producto o servicio para ser reconocido y percibido en el mercado satisfaciendo las necesidades de los clientes.
-      .px-5.bg-2.mb-4
+      .px-5.py-4.bg2.mb-4
         h3 Calidad de 
           em software 
           | (QA)
@@ -469,13 +469,13 @@
         p También se puede definir como la relación coherente del producto 
           em software 
           | con los requerimientos funcionales y no funcionales.
-      .px-5.bg-2.mb-4
+      .px-5.py-4.bg2.mb-4
         h3 Aseguramiento de la calidad de 
           em software 
           | (SQA)
         p Es el conjunto de actividades, métodos y técnicas planificadas y sistemáticas necesarias para asegurar que el producto software satisfará los requerimientos dados de calidad. 
         p Se encarga de garantizar que el producto haya sido construido siguiendo los procesos establecidos por la organización.
-      .px-5.bg-2.mb-4
+      .px-5.py-4.bg2.mb-4
         h3 Propósito del aseguramiento de la calidad de 
           em software 
           | (SQA)
@@ -494,7 +494,7 @@
       | , y a la administración, la seguridad de que procesos oficialmente establecidos están siendo implementados, teniendo en cuenta:
 
     PasosA.color-acento-contenido.mb-5(tipo="n")
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-5
           p Establecer estándares, procesos y planes con el objetivo de satisfacer las políticas de la organización y que se ajusten a las necesidades de cada proyecto en particular, para así asegurar la calidad del producto 
             em software.
@@ -502,42 +502,42 @@
         .col-lg-2
           figure
             img(src='@/assets/curso/t2/f25.svg' alt='imagen relacionada')
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-2
           figure
             img(src='@/assets/curso/t2/f26.svg' alt='imagen relacionada')
         .col-lg-2
         .col-lg-5
           p Auditar y revisar los productos y actividades desarrolladas para verificar que satisfacen los procesos y estándares definidos.
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-5
           p Proporcionar las herramientas necesarias que den soporte al proceso definido, facilitando su ejecución, visualización, administración y seguimiento.
         .col-lg-2
         .col-lg-2
           figure
             img(src='@/assets/curso/t2/f27.svg' alt='imagen relacionada')
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-2
           figure
             img(src='@/assets/curso/t2/f28.svg' alt='imagen relacionada')
         .col-lg-2
         .col-lg-5
           p Proveer al equipo de proyecto y a otros interesados, los resultados sobre las revisiones, auditorías y actividades. 
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-5
           p Determinar las funcionalidades esperadas por el cliente.
         .col-lg-2
         .col-lg-2
           figure
             img(src='@/assets/curso/t2/f29.svg' alt='imagen relacionada')
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-2
           figure
             img(src='@/assets/curso/t2/f30.svg' alt='imagen relacionada')
         .col-lg-2
         .col-lg-5
           p Escalar problemas presentados dentro del equipo de un proyecto, hacia un nivel apropiado de administración para su resolución.
-      .row.align-items-center
+      .row.align-items-center.justify-content-center
         .col-lg-5
           p Garantizar que se cumpla el plan generado para el desarrollo del proyecto y del proceso de desarrollo de 
             em software.
@@ -553,36 +553,36 @@
       em software 
       | (SQA) se deben tener en cuenta diversos principios básicos:
 
-    ImagenInfografica
+    ImagenInfografica.color-acento-contenido
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/t2/f32.svg', alt='7 principios de aseguramiento de la calidad del software (SQA)')
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="22%" y="36.5%" numero="")
         p.mb-0 La calidad debe ser una constante a lo largo de todo el ciclo de vida del 
           em software
           | . Es una acción que se construye en la medida que el producto se va desarrollando, mas no cuando el producto está terminado, es por esta razón que todo el equipo o involucrados en el proceso deben también enfocarse en la calidad del producto.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="22%" y="63%" numero="")
         p.mb-0 La calidad de 
           em software 
           | solo se logra con la contribución de todas las personas involucradas, es decir que la calidad no es un proceso solo del equipo de aseguramiento de la calidad de 
           em software
           | , sino más bien una actividad sincrónica entre todas las personas que colaboran para el desarrollo del producto.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="30.5%" y="88%" numero="")
         p.mb-0 La gestión y la planificación de la calidad debe ser eficaz y previamente definido y ejecutado, por lo tanto, se deben establecer procesos, estándares y una planeación claramente definida para poder asegurar la calidad del producto, donde contengan puntos de verificación y un proceso claro y definido que incluya que, quien, y cuando, va a realizar la verificación o medición de la calidad. 
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="72.1%" y="12%" numero="")
         p.mb-0 Se deben dirigir los esfuerzos a la prevención de defectos, es decir que una vez que un defecto es detectado además de corregirlo se deben tomar medidas necesarias para que no vuelva a ocurrir. Es en este punto donde se tiene en cuenta lo que es el análisis de las causas raíces, una vez que se encuentra un defecto se debe analizar por qué se ocasionó y cuál fue la causa que lo originó, por ejemplo si es un problema en el proceso, o si es un problema con las herramientas que se están utilizando, o si fue una mala definición de los requerimientos, lo que constata que un error no solamente se soluciona o resuelve, sino que hay que indagar más en la causa raíz; porque de no hacerlo en el futuro se va a presentar el mismo problema.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="76%" y="37%" numero="")
         p.mb-0 Hay que reforzar los sistemas de detección y eliminación de defectos durante las etapas iniciales, lo que reafirma que eliminando los defectos en las etapas de requerimientos y diseño, estamos asegurando que esos defectos no van a ser replicados en las etapas subsiguientes, por ende es menos costoso detectar y corregir los defectos en las etapas iniciales, por ejemplo si detectamos un defecto en los requerimientos o en el diseño del 
           em software
           | , lo más posible es que se tenga que corregir documentos o diagramas, pero si se espera a la etapa de desarrollo o cuando el 
           em software 
           | ya está en producción, tenemos que volver hacia atrás en todas las fases del ciclo de vida del desarrollo del 
           em software.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="76%" y="63%" numero="")
         p.mb-0 La calidad al igual que la productividad, los costos y los plazos de entrega están al mismo nivel, lo que quiere decir que el cumplimiento de los plazos de entrega y mantenerse dentro del presupuesto también son variables que se evalúan dentro del proceso de aseguramiento de calidad de 
           em software
           | , pues de que sirve un producto sin defectos cuando ha costado mucho más de lo presupuestado y se ha entregado cuando ya no será útil.
-      .fcp20.p-4(x="20%" y="20%" numero="")
+      .fcp20.p-4(x="71%" y="88%" numero="")
         p.mb-0 Es esencial la participación de la dirección, que ha de propiciar la calidad, esto quiere decir que la dirección debe ser el primer interesado en asegurar la calidad y de proveer las directrices, herramientas y el apoyo necesarios para que se pueda lograr, por lo tanto si no hay apoyo de la dirección para implementar y ejecutar el proceso de aseguramiento de calidad del 
           em software
           | , será difícil que se pueda llevar a cabo la calidad y por ende los productos no van a salir con la calidad requerida.
