@@ -31,7 +31,13 @@ $caclarito: #D2EDEA
     border-color: $color-acento-contenido !important
     opacity: 1
 
+.fblanco
+  background-color: white !important
+
 //otros
+.boxShadow
+  box-shadow: 0 0 5px #00000066
+
 .bg1
   background-color: #F3F9FF
   
@@ -41,16 +47,29 @@ $caclarito: #D2EDEA
   background-position: center center
   background-repeat: no-repeat
 
-/*.bg3
-  background-image: url('../assets/curso/bg3.svg')
+.bg3
+  background-image: url('../assets/curso/bg2.svg')
   background-size: 100%
-  background-position: bottom center
+  background-position: top center
   background-repeat: no-repeat
 
-/*.bg4
-  background-image: url('../assets/curso/bg4.jpg')
+.bg3slider
+  background-image: url('../assets/curso/bg3.svg')
   background-size: 100%
-  background-position: bottom center
+  background-position: center center
+  background-repeat: no-repeat
+
+.bg4
+  background-image: url('../assets/curso/bg5.svg')
+  background-size: 100%
+  background-position: top center
+  background-repeat: no-repeat
+  border-radius: 1rem
+
+.bg5
+  background-image: url('../assets/curso/bg6.svg')
+  background-size: cover
+  background-position: center center
   background-repeat: no-repeat
   border-radius: 1rem
 
@@ -108,6 +127,10 @@ $caclarito: #D2EDEA
   
   
 @media screen and ( min-width: 992px )
+  .img50pc
+    img
+      max-width: 50%
+      float: right
   
   .reverse
     .bloque-texto-g__texto 
@@ -135,6 +158,8 @@ $caclarito: #D2EDEA
     position: absolute
     top: 0
     bottom: auto !important
+    &__card
+      background-color: transparent !important
 
   .ctrderecho
     padding-right: 1rem !important
@@ -157,3 +182,8 @@ $caclarito: #D2EDEA
       display: none
     .onlyHover
       display: block
+
+.tabla-b
+  th
+    width: auto !important
+    padding: 10px !important

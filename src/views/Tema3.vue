@@ -67,8 +67,7 @@
 
     p.mb-5 Cada entidad puede definir su propio plan de pruebas basados en buenas prácticas, de acuerdo con las siguientes características, veamos:
 
-    .bg5
-      SlyderD.mb-5(:datos="datosSlyderT3")
+    SlyderD.mb-5.bg5.p-5.img50pc(:datos="datosSlydert3")
 
     h3 Formatos
     p Recordemos que el estándar ISO/IEC/IEEE 29119-3:2013 es un instrumento que suministra una serie de artefactos validados a nivel internacional por las organizaciones a la vanguardia del proceso de desarrollo de 
@@ -185,29 +184,29 @@
         figure
           img(src='@/assets/curso/t3/f14.svg', alt='imagen relacionada')
 
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="27.4%" y="9%" numero="")
         p.mb-0 Debe contener el nombre del sistema a probar, el nombre del documento y la versión.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="27.4%" y="29.5%" numero="")
         p.mb-0 Especificar en qué consiste el sistema y cual sistema se va a probar. También se incluye y describe el alcance de las pruebas.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="27.4%" y="50%" numero="")
         p.mb-0 En esta parte se listan los tipos de prueba a realizar y los requerimientos a probar en el proceso. Específica y describe las características a probar y las que no se van a probar.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="27.4%" y="70.5%" numero="")
         p.mb-0 Representa el enfoque recomendado para la comprobación de las aplicaciones.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="27.4%" y="91%" numero="")
         p.mb-0 En esta parte se especifica los criterios de entrada y salida de la aplicación al área de Aseguramiento de Calidad de 
           em Software 
           | (SQA).
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="42.5%" y="80.5%" numero="")
         p.mb-0 Se describen las actividades (plan, diseño, implementación y ejecución de pruebas, así como la evaluación de los resultados) que realizarán el equipo de SQA
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="70.7%" y="9%" numero="")
         p.mb-0 Se describe el informe de resultados de prueba y los defectos detectados durante el esfuerzo de pruebas
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="70.7%" y="29.5%" numero="")
         p.mb-0 Describe los recursos del sistema
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="70.7%" y="50%" numero="")
         p.mb-0 Describe las características del personal requerido para el esfuerzo de pruebas, así como las necesidades de entrenamiento.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="70.7%" y="70.5%" numero="")
         p.mb-0 En este punto se plantean las fechas estimadas de inicio y fin de las principales actividades de prueba
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="70.7%" y="91%" numero="")
         p.mb-0 En este punto se plantea los riesgos identificados al momento de la planificación y su estrategia de mitigación
 
     h3 Elementos principales para redactar un caso de prueba
@@ -394,31 +393,35 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | 1.	Introducción.
+            | Introducción.
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | 2.	Alcance.
+            | Alcance.
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | 3.	Recursos en este caso el nombre de los tester.
+            | Recursos en este caso el nombre de los tester.
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | 4.	Descripción de funcionalidades a probar.
+            | Descripción de funcionalidades a probar.
           li 
             .lista-ol--cuadro__vineta
               span 5
-            | 5.	Los tipos de pruebas (Pruebas de rendimiento, pruebas de aceptación (UAT)) que se van a realizar.
+            | Los tipos de pruebas (Pruebas de rendimiento, pruebas de aceptación (UAT)) que se van a realizar.
           li 
             .lista-ol--cuadro__vineta
               span 6
-            | 6.	Infraestructura lista.
+            | Infraestructura lista.
           li 
             .lista-ol--cuadro__vineta
               span 7
-            | 7.	Suposiciones, plan de riesgos y los entregables que se producirán al final.
+            | Suposiciones, plan de riesgos y los entregables que se producirán al final.
+      .col-lg-6.order-lg-last.order-first
+        figure
+          img(src='@/assets/curso/t3/f22.svg', alt='imagen relacionada')
+
 
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido
@@ -429,18 +432,18 @@
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/t3/f22.svg', alt='imagen relacionada')
-      .bg1.p-3(x="20%" y="20%" numero="")
+          img(src='@/assets/curso/t3/f23.svg', alt='imagen relacionada')
+      .bg1.p-3(x="73.4%" y="17.5%" numero="")
         p.mb-0 Analizar el impacto del defecto.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="87.5%" y="48.5%" numero="")
         p.mb-0 Investigar el problema, en qué condiciones se produce este fallo.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="64.8%" y="85.5%" numero="")
         p.mb-0 Analizar la severidad, si es alta o baja.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="30%" y="81.5%" numero="")
         p.mb-0 Variar los pasos realizados, se pueden ejecutar en orden diferente para observar si existe alguna variante en el resultado esperado.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="13.3%" y="46.8%" numero="")
         p.mb-0 Variar opciones de configuración, si estamos probando una aplicación web podemos probar con diferentes navegadores.
-      .bg1.p-3(x="20%" y="20%" numero="")
+      .bg1.p-3(x="32.8%" y="16.5%" numero="")
         p.mb-0 Determinar condiciones específicas bajo las cuales se reproduce el defecto, si estamos probando entradas de datos entonces probar con diferentes datos, es decir se va a tener más información sobre cómo se reproduce el defecto, si por ejemplo en los campos numéricos se prueba números positivos y negativos.
 
     h3 Incidencias detectadas
@@ -451,7 +454,7 @@
     .titulo-quinto.color-acento-contenido
       span <b>Figura 16.</b> Ciclo de vida de una incidencia de 
         em software (Bug)
-    img(src='@/assets/curso/t3/f23.svg' alt='mapa conceptual')
+    img(src='@/assets/curso/t3/f24.svg' alt='mapa conceptual')
 
 </template>
 
@@ -459,7 +462,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    datosSlyder: [
+    datosSlydert3: [
       {
         titulo: 'El plan de prueba',
         texto:

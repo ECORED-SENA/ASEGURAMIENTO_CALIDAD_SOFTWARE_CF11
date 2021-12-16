@@ -643,22 +643,22 @@
 
     .bg1.p-5
       .row.justify-content-center
-        .col-lg-3
-          .tarjeta.fblanco.boxShadow.p-4
+        .col-lg-3.tarjeta.fblanco.boxShadow.mx-3
+          .p-4(data-aos='flip-down')
             figure
               img(src='@/assets/curso/t2/f38.svg', alt='imagen relacionada').mb-4
             h3.text-center Planificación
             p.text-center En el proceso de aseguramiento de la calidad de software se encuentran tres etapas.
-        .col-lg-3
-          .tarjeta.fblanco.boxShadow.p-4
+        .col-lg-3.tarjeta.fblanco.boxShadow.mx-3
+          .p-4(data-aos='flip-down')
             figure
               img(src='@/assets/curso/t2/f39.svg', alt='imagen relacionada').mb-4
             h3.text-center Construcción
             p.text-center Se crean los artefactos de prueba y el 
               em script 
               | de pruebas.
-        .col-lg-3
-          .tarjeta.fblanco.boxShadow.p-4
+        .col-lg-3.tarjeta.fblanco.boxShadow.mx-3
+          .p-4(data-aos='flip-down')
             figure
               img(src='@/assets/curso/t2/f40.svg', alt='imagen relacionada').mb-4
             h3.text-center Ejecución
@@ -677,7 +677,7 @@
             em software 
             | es importante involucrar el valor de los requerimientos explícitos e implícitos del producto, con el propósito de medir la calidad, los estándares y modelos de calidad existentes. 
           p Estos modelos de calidad tienen un conjunto de factores que pueden ser medidos directamente como unidades de tiempo y errores, pero también indirectamente como la facilidad de mantenimiento.
-        .col-lg-6.order-first.order-lg-last
+        .col-lg-6.order-first.order-lg-last(data-aos='fade-left')
           figure
             img(src='@/assets/curso/t2/f41.svg' alt='Estándares y modelos de calidad del software')
 
@@ -1040,7 +1040,7 @@
         figure
           img(src='@/assets/curso/t2/f45.jpg' alt='imagen relacionada')
 
-    .col-lg-8.fcap.p-4.mx-auto.mb-5
+    .col-lg-8.fcap.p-4.mx-auto.mb-5.tarjeta
       .row.align-items-center
         .col-lg-4
           figure
@@ -1166,8 +1166,8 @@
         .titulo-sexto.color-acento-contenido
           span <b>Figura 4</b> Costo promedio de filtrado de defectos
         figure
-          img(src='@/assets/curso/t2/f50.jpg' alt='imagen relacionada')
-          figcaption Nota. 
+          img(src='@/assets/curso/t2/f50.jpg' alt='imagen relacionada').mb-4
+          figcaption.mb-5 Nota. 
             a(href='https://bit.ly/3cjKL0y' target='_blank')
               | https://bit.ly/3cjKL0y
 
@@ -1459,7 +1459,7 @@
 
     p.mb-5 Además de los roles, Scrum define un conjunto de eventos con participantes y objetivos claros que se desarrollan en momentos particulares del flujo general de Scrum, a continuación, se detalla cada uno de estos eventos:
       
-    SlyderD.mb-5(:datos="datosSlyder")
+    SlyderD.mb-5.bg3slider(:datos="datosSlyder")
 
     p.mb-5 Finalmente, el marco de trabajo Scrum define un conjunto de artefactos que permiten registrar y gestionar información clave para asegurar los tres pilares fundamentales y proveen información valiosa durante todo el proceso de desarrollo de 
       em software
