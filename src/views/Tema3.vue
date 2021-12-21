@@ -123,7 +123,7 @@
 
     .col-lg-7.mx-auto.mb-5
       .titulo-quinto.color-acento-contenido
-        span <b>Figura 15.</b> Artefactos de prueba en las etapas del proceso de SQA
+        span <b>Figura 15.</b><br>Artefactos de prueba en las etapas del proceso de SQA
 
     .col-lg-7.mx-auto.mb-5
       .tarjeta-avatar-b.mb-5
@@ -173,7 +173,8 @@
         
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2 Aplicar los instrumentos de calidad de software
+      h2 3.2 Aplicar los instrumentos de calidad de 
+        em software
 
     p En la elaboración de un plan de pruebas se debe tener bien claros los requerimientos de usuario que forman la iteración o proyecto, por lo tanto, se debe analizar la información de la especificación de requisitos, la matriz de trazabilidad, especificaciones y diseño funcional, casos de uso, requisitos no funcionales, prototipado e historias de usuario en el caso de metodologías ágiles.
     p Implementación del plan de pruebas.
@@ -210,7 +211,9 @@
         p.mb-0 En este punto se plantea los riesgos identificados al momento de la planificación y su estrategia de mitigación
 
     h3 Elementos principales para redactar un caso de prueba
-    p.mb-5 La estructuración de un caso de prueba se convierte en una actividad sin dificultad, si tenemos la información necesaria para su proceso de elaboración, así mismo al momento de verificar un software es de mucho aporte, puesto que se transforma en una herramienta esencial en el proceso de registro, seguimiento y control. A continuación, en la siguiente tabla, se describen los elementos principales que debe contener un caso de prueba. 
+    p.mb-5 La estructuración de un caso de prueba se convierte en una actividad sin dificultad, si tenemos la información necesaria para su proceso de elaboración, así mismo al momento de verificar un 
+      em software 
+      | es de mucho aporte, puesto que se transforma en una herramienta esencial en el proceso de registro, seguimiento y control. A continuación, en la siguiente tabla, se describen los elementos principales que debe contener un caso de prueba. 
 
     .col-lg-8.mx-auto.mb-5
       .tabla-b.color-acento-contenido.mb-5
@@ -386,8 +389,12 @@
 
     .row.align-items-center.mb-5
       .col-lg-6
-        p Estos elementos se describen en un plan de pruebas, sin embargo, es posible que en los equipos se tome la decisión de no diseñarlo, en ese sentido se recomienda que los tester tomen notas o documente los factores más importantes relacionados con las pruebas en cada release.
-        p Para realizar pruebas de software en una metodología ágil, comenzamos por redactar el plan de pruebas teniendo en cuenta que se puede actualizar en cada sprint.
+        p Estos elementos se describen en un plan de pruebas, sin embargo, es posible que en los equipos se tome la decisión de no diseñarlo, en ese sentido se recomienda que los tester tomen notas o documente los factores más importantes relacionados con las pruebas en cada 
+          em release
+          | .
+        p Para realizar pruebas de 
+          em software 
+          | en una metodología ágil, comenzamos por redactar el plan de pruebas teniendo en cuenta que se puede actualizar en cada sprint.
         p Un plan de pruebas ágiles debe incluir:
         ol.lista-ol--cuadro
           li 
@@ -447,12 +454,18 @@
         p.mb-0 Determinar condiciones específicas bajo las cuales se reproduce el defecto, si estamos probando entradas de datos entonces probar con diferentes datos, es decir se va a tener más información sobre cómo se reproduce el defecto, si por ejemplo en los campos numéricos se prueba números positivos y negativos.
 
     h3 Incidencias detectadas
-    p La gestión de incidencias es un elemento central e importante en el proceso de calidad de software puesto que es en este punto donde se tienen en cuenta los errores (Bugs). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita.
+    p La gestión de incidencias es un elemento central e importante en el proceso de calidad de 
+      em software 
+      | puesto que es en este punto donde se tienen en cuenta los errores (Bugs). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita.
     p Ciclo de vida de una incidencia
-    p Un sistema de gestión de incidentes debe manejar los errores de software teniendo en cuenta el proceso (figura 16) este se adapta a proyectos de software en fase de desarrollo, mas no en ambiente de producción. 
+    p Un sistema de gestión de incidentes debe manejar los errores de 
+      em software 
+      | teniendo en cuenta el proceso (figura 16) este se adapta a proyectos de 
+      em software 
+      | en fase de desarrollo, mas no en ambiente de producción. 
 
     .titulo-quinto.color-acento-contenido
-      span <b>Figura 16.</b> Ciclo de vida de una incidencia de 
+      span <b>Figura 16.</b><br>Ciclo de vida de una incidencia de 
         em software (Bug)
     img(src='@/assets/curso/t3/f24.svg' alt='mapa conceptual')
 

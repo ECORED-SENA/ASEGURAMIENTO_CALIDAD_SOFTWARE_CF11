@@ -10,14 +10,21 @@
 
     .row.mb-5
       .col-lg-6
-        p Un Marco de Referencia aporta las directrices y saberes teóricos obtenidos con base en un estudio, una investigación y un análisis previo, que permite estimar en este caso que un proceso de calidad fundamentado a través del estudio e investigación; estaría en la capacidad de plantear mejores prácticas y definir procedimientos que optimicen dicho proceso, para garantizar que éste represente una mejora en el proceso de calidad y en la calidad del producto. Por lo anterior este marco de referencia contiene los fundamentos de la calidad del software que permitirá construir un plan de pruebas teniendo en cuenta el proceso de desarrollo de software, los modelos de desarrollo, metodologías de desarrollo tradicionales y ágiles, estándares de calidad, planificación de pruebas de software y la documentación que se debe realizar en el proceso de calidad de software tal como se describen a continuación. 
+        p Un Marco de Referencia aporta las directrices y saberes teóricos obtenidos con base en un estudio, una investigación y un análisis previo, que permite estimar en este caso que un proceso de calidad fundamentado a través del estudio e investigación; estaría en la capacidad de plantear mejores prácticas y definir procedimientos que optimicen dicho proceso, para garantizar que éste represente una mejora en el proceso de calidad y en la calidad del producto. Por lo anterior este marco de referencia contiene los fundamentos de la calidad del software que permitirá construir un plan de pruebas teniendo en cuenta el proceso de desarrollo de 
+          em software
+          | , los modelos de desarrollo, metodologías de desarrollo tradicionales y ágiles, estándares de calidad, planificación de pruebas de 
+          em software 
+          | y la documentación que se debe realizar en el proceso de calidad de 
+          em software 
+          | tal como se describen a continuación. 
 
       .col-lg-6(data-aos='flip-down')
         figure
           img(src='@/assets/curso/t2/f1.jpg' alt='imagen relacionada')
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Proceso de desarrollo de Software
+      h2 2.1 Proceso de desarrollo de 
+        em Software
 
     .row.mb-5
       .col-lg-6
@@ -49,7 +56,9 @@
           em Managing the Development of Large Software Systems
           | , proporciona una reflexión constructiva acerca de los procedimientos lineales y a modo de alternativa, presenta un modelo iterativo incremental en la que cada una de las fases se basa en el resultado de la fase la anterior y valida los resultados de esta.
 
-    p.mb-5 La metodología en cascada está acotada por cada una de las fases o etapas anteriores, dado que no es posible acceder a la fase de diseño sino se ha terminado la fase de requisitos, por lo cual son de naturaleza bloqueante. Este tipo de metodologías también es conocida como tradicional, ya que fueron los primeros modelos que se incorporaron en el proceso de desarrollo de software, aunque con el tiempo se identificaron las problemáticas al necesitar obtener productos a corto plazo. 
+    p.mb-5 La metodología en cascada está acotada por cada una de las fases o etapas anteriores, dado que no es posible acceder a la fase de diseño sino se ha terminado la fase de requisitos, por lo cual son de naturaleza bloqueante. Este tipo de metodologías también es conocida como tradicional, ya que fueron los primeros modelos que se incorporaron en el proceso de desarrollo de 
+      em software
+      | , aunque con el tiempo se identificaron las problemáticas al necesitar obtener productos a corto plazo. 
 
     .bg1.pt-4
       .row.align-items-center.justify-content-center.mb-5
@@ -71,7 +80,9 @@
               h3 Análisis
               p Todo proyecto de 
                 em software 
-                | inicia con una fase de análisis, en el documento de especificación del software se determina la viabilidad y la definición de requisitos funcionales y no funcionales. 
+                | inicia con una fase de análisis, en el documento de especificación del 
+                em software 
+                | se determina la viabilidad y la definición de requisitos funcionales y no funcionales. 
               p En la viabilidad se evalúa la rentabilidad, factibilidad y los costos de la construcción, además se define un pliego de condiciones, un plan y una estimación financiera, también la propuesta para el cliente de ser necesario. 
               p Posteriormente, se realiza la definición detallada de los requisitos, que debe incluir, el análisis de la situación de salida y un concepto. Los análisis de salida definen la problemática, y el concepto define qué funciones y características debe ofrecer el producto 
                 em software 
@@ -94,14 +105,18 @@
             .col-lg-6
               h3 Implementación
               p La arquitectura otorgada en la fase de diseño se desarrolla en la fase de implementación, en la que se construye el código fuente que representa dicha arquitectura en un lenguaje de programación, también incluye la búsqueda de errores y pruebas unitarias. 
-              p Esta fase genera como resultado un producto software que se despliega por primera vez como insumo de la siguiente fase. 
+              p Esta fase genera como resultado un producto 
+                em software 
+                | que se despliega por primera vez como insumo de la siguiente fase. 
         .py-3.py-md-4(titulo='Prueba')
           .row.align-items-center.justify-content-around
             .col-lg-6
               h3 Prueba
               p Esta fase incluye el proceso de integración y despliegue del producto 
                 em software 
-                | en el entorno seleccionado, por lo general se prueba y envía con una serie de usuarios finales seleccionados. Se aplican las pruebas de aceptación incluidas en la fase de análisis y con ello se puede determinar si el software cumple o no con las necesidades definidas. 
+                | en el entorno seleccionado, por lo general se prueba y envía con una serie de usuarios finales seleccionados. Se aplican las pruebas de aceptación incluidas en la fase de análisis y con ello se puede determinar si el 
+                em software 
+                | cumple o no con las necesidades definidas. 
               p Los productos que superan estas pruebas, son aquellos que pueden continuar hacia el proceso de liberación hacia el público en general o su target específico. 
             .col-lg-4
               figure
@@ -113,7 +128,9 @@
                 img(src='@/assets/curso/t2/f10.svg' alt='imagen relacionada')
             .col-lg-6
               h3 Servicio
-              p Después que la fase de prueba haya finalizado con éxito, se autoriza para que la aplicación pase a un ambiente productivo, en esta última etapa se incluye la entrega, mantenimiento, garantía y mejoras del producto software. Cabe destacar que la fase de mantenimiento incluye tres elementos:
+              p Después que la fase de prueba haya finalizado con éxito, se autoriza para que la aplicación pase a un ambiente productivo, en esta última etapa se incluye la entrega, mantenimiento, garantía y mejoras del producto 
+                em software
+                | . Cabe destacar que la fase de mantenimiento incluye tres elementos:
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
@@ -187,7 +204,7 @@
     p Las normas en este punto definen todos los modelos, términos y definiciones comunes referenciados por todas las otras normas de la familia 25000. Actualmente esta división se encuentra formada por:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.tarjeta.fcp20.mx-2.mb-4(data-aos='fade-right')
+      .col-lg-4.tarjeta.mx-2.mb-4(data-aos='fade-right' style='background-color: #7CC5FF !important')
         .p-4.text-center
           h3 ISO/IEC 25000
           p 
@@ -195,7 +212,7 @@
             | : está compuesta por un modelo de la arquitectura de 
             em SQuaRE
             | , la terminología de la familia, un resumen de las partes, los usuarios previstos, las partes asociadas y los modelos de referencia.
-      .col-lg-4.tarjeta.fcp20.mx-2.mb-4(data-aos='fade-left')
+      .col-lg-4.tarjeta.mx-2.mb-4(data-aos='fade-left' style='background-color: #7CC5FF !important')
         .p-4.text-center
           h3 ISO/IEC 25001
           p 
@@ -304,10 +321,14 @@
         figure
           img(src='@/assets/curso/t2/f18.jpg' alt='imagen relacionada')
       .col-lg-6(style='z-index:1')
-        p Este modelo es uno de los que más utilizan las empresas de desarrollo de software, por lo tanto, se debe comprender que si se utiliza este modelo su objetivo es auditar el cumplimiento de normas de calidad partiendo de la medición con niveles de madurez, además se enfoca en la mejora continua del producto en todo su ciclo de vida, impulsar la eficiencia y asegurar la calidad, de esta forma se reducen los riesgos en el proceso de desarrollo. A continuación, se presentan los elementos de un modelo CMMI.
+        p Este modelo es uno de los que más utilizan las empresas de desarrollo de 
+          em software
+          | , por lo tanto, se debe comprender que si se utiliza este modelo su objetivo es auditar el cumplimiento de normas de calidad partiendo de la medición con niveles de madurez, además se enfoca en la mejora continua del producto en todo su ciclo de vida, impulsar la eficiencia y asegurar la calidad, de esta forma se reducen los riesgos en el proceso de desarrollo. A continuación, se presentan los elementos de un modelo CMMI.
         .fcp20.p-4.ctrderecho
           h4 Modelo de desarrollo CMMI (Capability Maturity Model Integration)
-          p Cuando se desea mejorar algunos procesos de negocio, construir productos de calidad para satisfacer las necesidades del cliente y colaborar en el cumplimiento de los requerimientos de la norma ISO e instaurar prácticas de mejora continua se debe utilizar este modelo puesto que es un modelo de capacidad y madurez, que además permite efectuar una apreciación de la madurez del proceso de desarrollo de software en las empresas.
+          p Cuando se desea mejorar algunos procesos de negocio, construir productos de calidad para satisfacer las necesidades del cliente y colaborar en el cumplimiento de los requerimientos de la norma ISO e instaurar prácticas de mejora continua se debe utilizar este modelo puesto que es un modelo de capacidad y madurez, que además permite efectuar una apreciación de la madurez del proceso de desarrollo de 
+            em software 
+            | en las empresas.
 
     h3 Los objetivos de CMMI:
     ul.lista-ul
@@ -350,9 +371,9 @@
         i.fas.fa-angle-right
         | Optimizado 
 
-    .col-lg-10.mx-auto
+    .col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        span <b>Figura 2</b> Niveles de maduración CMMI por etapas
+        span <b>Figura 2</b><br>Niveles de maduración CMMI por etapas
       img(src='@/assets/curso/t2/f19.svg' alt='diagrama relacionado' data-aor='flip-up')
       figcaption Nota. 
         a(href='https://www.tutorialspoint.com/es/cmmi/cmmi_maturity_levels.htm' target='_blank')
@@ -445,9 +466,19 @@
         figure
           img(src='@/assets/curso/t2/f23.jpg' alt='imagen relacionada')
       .col-lg-6(style='z-index:1')
-        p Recordemos que la construcción de software está basada en unas fases que permiten incrementar el producto desde sus cimientos hasta obtener un producto base, esto es posible ya que en el proceso se implementan diferentes estrategias y metodologías, el gran desafío está, en cómo construir un producto que se pueda validar rápidamente y que contenga los niveles adecuados de calidad. La naturaleza de los requisitos de software es cambiante lo cual complica la precisión de los equipos, demorando posiblemente el tiempo, los recursos y el presupuesto asignado.
+        p Recordemos que la construcción de 
+          em software 
+          | está basada en unas fases que permiten incrementar el producto desde sus cimientos hasta obtener un producto base, esto es posible ya que en el proceso se implementan diferentes estrategias y metodologías, el gran desafío está, en cómo construir un producto que se pueda validar rápidamente y que contenga los niveles adecuados de calidad. La naturaleza de los requisitos de 
+          em software 
+          | es cambiante lo cual complica la precisión de los equipos, demorando posiblemente el tiempo, los recursos y el presupuesto asignado.
         .fcp20.p-4.ctrderecho
-          p.mb-0 La calidad de software es un área importante en el proceso de desarrollo que busca estar en constante validación de la calidad del producto software, por lo general en el diseño de un plan de aseguramiento de calidad. Por ello es de importancia tener en cuenta los siguientes conceptos y su aplicación práctica en el ciclo de desarrollo de software: 
+          p.mb-0 La calidad de 
+            em software 
+            | es un área importante en el proceso de desarrollo que busca estar en constante validación de la calidad del producto 
+            em software
+            | , por lo general en el diseño de un plan de aseguramiento de calidad. Por ello es de importancia tener en cuenta los siguientes conceptos y su aplicación práctica en el ciclo de desarrollo de 
+            em software
+            | : 
 
     .col-lg-10.mx-auto.mb-5.bg1.tarjeta.p-5
       .px-5.py-4.bg2.mb-4
@@ -473,7 +504,9 @@
         h3 Aseguramiento de la calidad de 
           em software 
           | (SQA)
-        p Es el conjunto de actividades, métodos y técnicas planificadas y sistemáticas necesarias para asegurar que el producto software satisfará los requerimientos dados de calidad. 
+        p Es el conjunto de actividades, métodos y técnicas planificadas y sistemáticas necesarias para asegurar que el producto 
+          em software 
+          | satisfará los requerimientos dados de calidad. 
         p Se encarga de garantizar que el producto haya sido construido siguiendo los procesos establecidos por la organización.
       .px-5.py-4.bg2.mb-4
         h3 Propósito del aseguramiento de la calidad de 
@@ -625,7 +658,9 @@
             img(src='@/assets/curso/t2/f36.svg', alt='imagen relacionada')
       .row(titulo='Gestión de la configuración')
         .col-lg-6
-          p En la organización se deben de tener procesos que especifiquen cómo serán llevadas a cabo las actividades cotidianas como son la recepción de los requerimientos y movimientos de activos de software entre las áreas tales como el código fuente.
+          p En la organización se deben de tener procesos que especifiquen cómo serán llevadas a cabo las actividades cotidianas como son la recepción de los requerimientos y movimientos de activos de 
+            em software 
+            | entre las áreas tales como el código fuente.
         .col-lg-2
         .col-lg-2
           figure
@@ -648,7 +683,9 @@
             figure
               img(src='@/assets/curso/t2/f38.svg', alt='imagen relacionada').mb-4
             h3.text-center Planificación
-            p.text-center En el proceso de aseguramiento de la calidad de software se encuentran tres etapas.
+            p.text-center En el proceso de aseguramiento de la calidad de 
+              em software 
+              | se encuentran tres etapas.
         .col-lg-3.tarjeta.fblanco.boxShadow.mx-3
           .p-4(data-aos='flip-down')
             figure
@@ -682,11 +719,19 @@
             img(src='@/assets/curso/t2/f41.svg' alt='Estándares y modelos de calidad del software')
 
     p Los modelos de calidad son documentos que constituyen una parte importante de las mejores prácticas, plantean aspectos de administración en la cual las organizaciones deben hacer énfasis, además componen diversas prácticas que facilitan la medición de los avances en la calidad. 
-    p Los estándares de calidad además de ser una guía para alcanzar la calidad y la productividad, permiten especificar una serie de criterios de desarrollo para orientar la manera en que se emplea la ingeniería de software. A continuación, se nombran los modelos más importantes que evalúan la calidad del producto de software:
+    p Los estándares de calidad además de ser una guía para alcanzar la calidad y la productividad, permiten especificar una serie de criterios de desarrollo para orientar la manera en que se emplea la ingeniería de 
+      em software
+      | . A continuación, se nombran los modelos más importantes que evalúan la calidad del producto de 
+      em software
+      | :
 
     .bg3.p-4.mb-5
       h3 Modelo Mc Call
-      p Este modelo fue diseñado por Jim Mc Call en 1977. Para el análisis de la calidad de software, este modelo determina 3 aspectos, también describe 11 factores y menciona 23 criterios. Las métricas encontradas en este modelo son una serie de preguntas que ponderan un determinado atributo del producto de software numéricamente. En la siguiente tabla se establecen los criterios de calidad relacionados con los factores de calidad.
+      p Este modelo fue diseñado por Jim Mc Call en 1977. Para el análisis de la calidad de 
+        em software
+        | , este modelo determina 3 aspectos, también describe 11 factores y menciona 23 criterios. Las métricas encontradas en este modelo son una serie de preguntas que ponderan un determinado atributo del producto de 
+        em software 
+        | numéricamente. En la siguiente tabla se establecen los criterios de calidad relacionados con los factores de calidad.
       .titulo-sexto.color-acento-contenido
         span <b>Tabla 1</b> Modelo Mc Call, factores de calidad del <em>software</em>
 
@@ -704,9 +749,12 @@
             tr
               td(rowspan='5')
                 p
-                  | Operatividad del Producto: factores de calidad que influyen en el grado en que el software cumple con su especificaci&oacute;n.
+                  | Operatividad del Producto: factores de calidad que influyen en el grado en que el 
+                  em software 
+                  | cumple con su especificaci&oacute;n.
               td
-                p Usabilidad: La facilidad de uso del software.
+                p Usabilidad: La facilidad de uso del 
+                  em software.
               td
                 p Operatividad
                 p Entrenamiento
@@ -742,7 +790,8 @@
             tr
               td(rowspan='3' width='170')
                 p
-                  | Revisi&oacute;n del Producto: factores de calidad que influyen en la capacidad de cambiar el producto de software.
+                  | Revisi&oacute;n del Producto: factores de calidad que influyen en la capacidad de cambiar el producto de 
+                  em software.
               td
                 p
                   | Mantenibilidad: Esfuerzo requerido para localizar y arreglar un fallo en el programa dentro de su entorno operativo.
@@ -769,10 +818,12 @@
             tr
               td(rowspan='3' width='170')
                 p
-                  | Transici&oacute;n del Producto: factores de calidad que influyen en la capacidad de adaptar el software a los nuevos entornos
+                  | Transici&oacute;n del Producto: factores de calidad que influyen en la capacidad de adaptar el 
+                  em software 
+                  | a los nuevos entornos
               td
-                p
-                  | Reusabilidad: La facilidad de reutilizaci&oacute;n de software en un contexto diferente.
+                p Reusabilidad: la facilidad de reutilizaci&oacute;n de 
+                  em software en un contexto diferente.
               td
                 p &nbsp;Auto-descripci&oacute;n
                 p &nbsp;Generalidad
@@ -786,12 +837,12 @@
                 p Similitud de datos Independencia del sistema Independencia de la m&aacute;quina
             tr
               td
-                p Interoperabilidad: El esfuerzo requerido para acoplar el sistema a otro sistema.
+                p Interoperabilidad: el esfuerzo requerido para acoplar el sistema a otro sistema.
               td
                 p Auto-descripci&oacute;n Independencia del sistema Independencia de la m&aacute;quina
           caption Nota. https://bit.ly/30x66Bv
 
-    .col-lg-8.p-4.mx-auto.mb-5
+    .col-lg-8.p-4.mx-auto.mb-5.tarjeta.fcap
       .row.align-items-center
         .col-lg-3
           figure
@@ -801,14 +852,19 @@
 
     .bg3.p-4.mb-5
       h3 Modelo FURPS
-      p Este modelo lo desarrolló Hewlett-Packard en el año 1987. Incluye el desarrollo de una serie de factores de calidad de software, teniendo en cuenta el acrónimo de FURPS: funcionalidad (Functionality), usabilidad (Usability), confiabilidad (Reliability), desempeño (Performance) y capacidad de soporte (Supportability). En la siguiente tabla se establece el diagrama de FURPS, los factores y los criterios de calidad.
+      p Este modelo lo desarrolló Hewlett-Packard en el año 1987. Incluye el desarrollo de una serie de factores de calidad de 
+        em software
+        | , teniendo en cuenta el acrónimo de FURPS: funcionalidad (Functionality), usabilidad (Usability), confiabilidad (Reliability), desempeño (Performance) y capacidad de soporte (Supportability). En la siguiente tabla se establece el diagrama de FURPS, los factores y los criterios de calidad.
       .row
         .col-lg-6
           figure
             img(src='@/assets/curso/t2/f43.svg' alt='imagen relacionada')
         .col-lg-6
           .titulo-sexto.color-acento-contenido
-            span <b>Tabla 2</b> Modelo FURPS, factores de calidad del software
+            span 
+              b Tabla 2. 
+              | Modelo FURPS, factores de calidad del 
+              em software
           
           .tabla-b.color-acento-contenido.mb-5
             table
@@ -868,7 +924,9 @@
       h3 Modelo BOHEM 
       .row.mb-5
         .col-lg-6
-          p Este modelo plantea una jerarquía en forma de árbol con tres ramas y con ciertos niveles, lo cual hace que el software sea de gran utilidad enfocándose en tres aspectos: portabilidad, facilidad de uso y facilidad de mantenimiento. El modelo BOHEM se diseña en tres niveles: 
+          p Este modelo plantea una jerarquía en forma de árbol con tres ramas y con ciertos niveles, lo cual hace que el 
+            em software 
+            | sea de gran utilidad enfocándose en tres aspectos: portabilidad, facilidad de uso y facilidad de mantenimiento. El modelo BOHEM se diseña en tres niveles: 
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -951,7 +1009,9 @@
     h3 ISO/IEC 9126
     p.mb-5 Es un estándar internacional para la evaluación de la calidad del 
       em software
-      | , que se aplica a diversos tipos de software. No obstante, en el 2005 fue reemplazado por el conjunto de normas SQuaRE. Sus características se pueden observar en la siguiente tabla.
+      | , que se aplica a diversos tipos de 
+      em software
+      | . No obstante, en el 2005 fue reemplazado por el conjunto de normas SQuaRE. Sus características se pueden observar en la siguiente tabla.
 
     .col-lg-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
@@ -1047,12 +1107,12 @@
             img(src='@/assets/curso/t2/f46.svg' alt='imagen relacionada')
         .col-lg-8.text-white
           p Una de varias funciones de la calidad de 
-          em software 
-          | es establecer estándares, procesos y planes con el objetivo de satisfacer las políticas de la organización y se ajusten a las necesidades de cada proyecto en particular para asegurar la calidad del producto 
-          em software
-          | , por lo tanto, la calidad del 
-          em software 
-          | está dividida en:
+            em software 
+            | es establecer estándares, procesos y planes con el objetivo de satisfacer las políticas de la organización y se ajusten a las necesidades de cada proyecto en particular para asegurar la calidad del producto 
+            em software
+            | , por lo tanto, la calidad del 
+            em software 
+            | está dividida en:
           ul.lista-ul
             li 
               i.fas.fa-angle-right 
@@ -1098,9 +1158,15 @@
           .p-4(titulo='Fiabilidad' numero='2')
             p Nivel en que se puede esperar que un programa realice sus funciones esperadas con la precisión requerida, lo anterior responde a la pregunta ¿el sistema está apto para usarse?
           .p-4(titulo='Eficiencia' numero='3')
-            p Cantidad de recursos de máquina y de código requeridos por un programa para efectuar sus funciones, este factor responde a la pregunta ¿se ejecutará en mi hardware con eficiencia?
+            p Cantidad de recursos de máquina y de código requeridos por un programa para efectuar sus funciones, este factor responde a la pregunta ¿se ejecutará en mi 
+              em hardware 
+              | con eficiencia?
           .p-4(titulo='Integridad' numero='4')
-            p Nivel en el que puede controlarse el acceso al software o a los datos por personal que no es autorizado, este factor responde a la pregunta ¿El software es seguro?
+            p Nivel en el que puede controlarse el acceso al 
+              em software 
+              | o a los datos por personal que no es autorizado, este factor responde a la pregunta ¿El 
+              em software 
+              | es seguro?
           .p-4(titulo='Seguridad' numero='5')
             p Disponibilidad de instrumentos que permiten controlar y proteger los programas y los datos.
           .p-4(titulo='Reusabilidad' numero='6')
@@ -1164,7 +1230,7 @@
           | más alto es el costo de las reparaciones y modificaciones 
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          span <b>Figura 4</b> Costo promedio de filtrado de defectos
+          span <b>Figura 4</b><br>Costo promedio de filtrado de defectos
         figure
           img(src='@/assets/curso/t2/f50.jpg' alt='imagen relacionada').mb-4
           figcaption.mb-5 Nota. 
@@ -1178,7 +1244,9 @@
       .col-lg-6
         h4 Conclusión de los factores que afectan o determinan la calidad del 
           em software
-        p Cuando calificamos la calidad de un producto se debe elegir los factores que van a ser estimados como requerimientos, por lo tanto, para realizar esta elección se debe tener en cuenta las propiedades particulares de la aplicación a desarrollar o de su ambiente, como ejemplo podemos observar que si la aplicación se desarrolla para un ambiente en el que el hardware evoluciona rápidamente entonces debemos tener en cuenta el factor de portabilidad, por otro lado si se espera que las especificaciones del sistema cambien frecuentemente entonces el factor flexibilidad va a ser importante. Otro punto que se debe tener en cuenta es el costo de los factores de calidad frente al beneficio que van a proporcionar (análisis de costo/beneficio), es decir que si agregamos todos los factores implicaría un incremento amplio de los costos, en lugar de lo anterior es prudente seleccionar los factores que logren contribuir el mayor valor posible al producto.
+        p Cuando calificamos la calidad de un producto se debe elegir los factores que van a ser estimados como requerimientos, por lo tanto, para realizar esta elección se debe tener en cuenta las propiedades particulares de la aplicación a desarrollar o de su ambiente, como ejemplo podemos observar que si la aplicación se desarrolla para un ambiente en el que el 
+          em hardware 
+          | evoluciona rápidamente entonces debemos tener en cuenta el factor de portabilidad, por otro lado si se espera que las especificaciones del sistema cambien frecuentemente entonces el factor flexibilidad va a ser importante. Otro punto que se debe tener en cuenta es el costo de los factores de calidad frente al beneficio que van a proporcionar (análisis de costo/beneficio), es decir que si agregamos todos los factores implicaría un incremento amplio de los costos, en lugar de lo anterior es prudente seleccionar los factores que logren contribuir el mayor valor posible al producto.
 
     Separador
     #t_2_7.titulo-segundo.color-acento-contenido
@@ -1192,20 +1260,20 @@
           em software 
           | manejen, controlen y mejoren el trabajo, teniendo también la oportunidad de construir equipos auto dirigidos y ser participantes efectivos del mismo, pero se debe tener en cuenta que primero deben tener el conocimiento para controlar y mejorar su trabajo, y después tener el conocimiento para trabajar en equipo. Por lo anterior el ingeniero podrá plantear mucho mejor el trabajo, medir la calidad del producto, mejorar las técnicas y determinar las medidas estándares para desempeño y calidad. En la calidad relacionada con las personas se establecen dos procesos PSP y TSP que proporcionan métodos detallados de planificación y estimación, tal como se muestra en el siguiente punto.
         h3 PSP/TSP
-        p Personal 
-          em Software 
-          | Process (PSP) es un proceso diseñado para ayudar a los ingenieros de 
+        p 
+          em Personal  Software Process 
+          | (PSP) es un proceso diseñado para ayudar a los ingenieros de 
           em software 
           | en el control, manejo y mejora del trabajo que realizan, el cual está basado en la calidad del 
           em software 
-          | ; para el caso de Team 
-          em Software 
-          | Process (TSP) es un marco para el desarrollo de 
+          | ; para el caso de 
+          em Team Software Process 
+          | (TSP) es un marco para el desarrollo de 
           em software 
           | que pone igual énfasis en el proceso, producto y trabajo en equipo, la siguiente imagen hace una explicación gráfica a este respecto:
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          span <b>Figura 5</b> Elementos que configuran los diferentes recursos relacionados con la calidad del 
+          span <b>Figura 5</b><br>Elementos que configuran los diferentes recursos relacionados con la calidad del 
             em software
         figure
           img(src='@/assets/curso/t2/f52.svg' alt='imagen relacionada')
@@ -1213,7 +1281,7 @@
     h3 PSP
     .col-lg-6.mx-auto.mb-5
       .titulo-quinto.color-acento-contenido
-        span <b>Figura 6</b> Flujo del proceso PSP
+        span <b>Figura 6</b><br>Flujo del proceso PSP
       figure
         img(src='@/assets/curso/t2/f53.svg' alt='CMM, TSP, PSP')
 
@@ -1252,7 +1320,7 @@
             p Un formato de registro del tiempo debe contener los elementos mostrados en la siguiente figura:
 
     .titulo-quinto.color-acento-contenido
-      span <b>Figura 7</b> Formato de registro de tiempo
+      span <b>Figura 7</b><br>Formato de registro de tiempo
     img(src='@/assets/curso/t2/f55.svg' alt='Formato del registro del tiempo')
     figcaption.mb-5 Nota. 
       a(href='https://bit.ly/3Duol8z' target='_blank')
@@ -1268,7 +1336,7 @@
             p Un formato de registro de defectos debe contener los elementos que se muestran en la siguiente figura:
 
     .titulo-quinto.color-acento-contenido
-      span <b>Figura 8</b> Formato de registro de defectos
+      span <b>Figura 8</b> <br>Formato de registro de defectos
     img(src='@/assets/curso/t2/f57.svg' alt='Resumen del plan del proyecto')
     figcaption.mb-5 Nota. 
       a(href='https://docs.google.com/document/d/1JamlC_ymiOypuY5_28aYhrq2tNvEnYpeHEgK-ggn-jM/edit' target='_blank')
@@ -1284,7 +1352,7 @@
             p Un formato de resumen del plan del proyecto debe contener los elementos mostrados en la siguiente figura:
 
     .titulo-quinto.color-acento-contenido
-      span <b>Figura 9</b> Resumen del plan del proyecto
+      span <b>Figura 9</b><br>Resumen del plan del proyecto
     img(src='@/assets/curso/t2/f58.svg' alt='Resumen del plan del proyecto')
     figcaption.mb-5 Nota. 
       a(href='https://docs.google.com/document/d/1JamlC_ymiOypuY5_28aYhrq2tNvEnYpeHEgK-ggn-jM/edit' target='_blank')
@@ -1301,7 +1369,9 @@
             | de calidad. Esta metodología administra el desarrollo de los procesos de 
             em software
             | , garantizando un entorno de trabajo natural y agradable para los equipos.
-        p El TSP contiene una serie de pasos estructurados con indicaciones para realizar las actividades en cada fase del desarrollo del proyecto, además es una herramienta útil referente a formación de equipos para el desarrollo de software de calidad, generando una planificación que permite determinar las responsabilidades y los roles en los equipos de trabajo. Para ello el TSP se basa en el PSP para formar profesionales con condiciones idóneas para la realización de proyectos demasiado grandes, además este marco contiene las características para generar planes detallados, utilizar datos de procesos, medir y gestionar la calidad del producto y detallar procesos operacionales.
+        p El TSP contiene una serie de pasos estructurados con indicaciones para realizar las actividades en cada fase del desarrollo del proyecto, además es una herramienta útil referente a formación de equipos para el desarrollo de 
+          em software 
+          | de calidad, generando una planificación que permite determinar las responsabilidades y los roles en los equipos de trabajo. Para ello el TSP se basa en el PSP para formar profesionales con condiciones idóneas para la realización de proyectos demasiado grandes, además este marco contiene las características para generar planes detallados, utilizar datos de procesos, medir y gestionar la calidad del producto y detallar procesos operacionales.
       .col-lg-6.order-lg-last.order-first
         figure
           img(src='@/assets/curso/t2/f59.svg' alt='imagen relacionada')
@@ -1359,7 +1429,9 @@
           .p-4(titulo='Implementación' numero='6')
             p En esta etapa el diseño se transfiere a nivel de código, realizando una revisión con el propósito de encontrar errores. También los módulos y las unidades se compilan y ejecutan con el propósito de analizar su calidad.
           .p-4(titulo='Pruebas' numero='7')
-            p En esta etapa el producto está a punto de finalizar, posteriormente se procede a la integración de los módulos y la documentación para los usuarios finales, como lo son los manuales de uso. También se establecen las pruebas al software con el objetivo de asegurar la calidad y poder así generar una evaluación en el desempeño del equipo de trabajo.
+            p En esta etapa el producto está a punto de finalizar, posteriormente se procede a la integración de los módulos y la documentación para los usuarios finales, como lo son los manuales de uso. También se establecen las pruebas al 
+              em software 
+              | con el objetivo de asegurar la calidad y poder así generar una evaluación en el desempeño del equipo de trabajo.
           .p-4(titulo='Postmortem' numero='8')
             p En esta etapa se hace una evaluación de los resutados de las pruebas y del trabajo del equipo. Se redacta un reporte del ciclo de vida del proyecto a detalle. 
 
@@ -1397,11 +1469,12 @@
     p.mb-5 Adicionalmente este marco de trabajo ágil, está estructurado por un conjunto de roles, eventos y artefactos como se observa en la siguiente figura.
 
     .titulo-quinto.color-acento-contenido
-      span <b>Figura 10</b> Fases y disciplinas de RUP
+      span <b>Figura 10</b><br>Fases y disciplinas de RUP
     img(src='@/assets/curso/t2/f65.svg' alt='imagen relacionada').mb-5
     figcaption Nota. 
       a(href='https://bit.ly/3FqauAN' target='_blank')
         | https://bit.ly/3FqauAN
+    .mb-5
 
     p.mb-5 Dentro del equipo, hay roles que se dividen en dos categorías fundamentales: los roles centrales que hacen referencia a los requeridos obligatoriamente para la creación de un producto, están altamente comprometidos y de los cuales depende el éxito o no de un proyecto, y también están los roles no centrales que hace referencia a todos el personal interesado en el proyecto, pueden interactuar con el equipo pero no son los responsables del éxito del mismo, dentro de esta categoría entran los 
       em  stakeholders
@@ -1414,7 +1487,7 @@
     p.mb-5 Para representar mejor estas dos categorías se hace referencia a la historia del cerdo y la gallina, como se puede observar a continuación, los roles centrales son el cerdo en la historia y las gallinas los roles no centrales.
 
     .titulo-sexto.color-acento-contenido
-      span <b>Figura 11</b> Fábula roles de Scrum
+      span <b>Figura 11</b><br>Fábula roles de Scrum
     .row.mb-3
       .col-lg-4
         figure
@@ -1564,21 +1637,24 @@
         hr
 
     h3 Calidad de 
-    em software 
-    | en metodologías ágiles
+      em software 
+      | en metodologías ágiles
     .row.align-items-center.mb-5
       .col-lg-6
         p La vertiente ágil en el desarrollo de 
           em software 
           | pretende distribuir de forma permanente y continua el proceso de desarrollo distribuido en iteraciones rápidas. 
         p Sin embargo, el término de “metodología ágil” es engañoso dado que implica que el enfoque ágil es la única manera de abordar el desarrollo de 
-          em software.  En esta vertiente no se define una serie de pasos o de indicaciones sobre el qué hacer en el proceso de desarrollo de software, por el contrario, trata de una forma de pensar en colaboración y los flujos de trabajo, en el cual se definen una serie de valores que orientan las decisiones respecto a lo que se hace y la forma en que se hace. 
+          em software
+          | .  En esta vertiente no se define una serie de pasos o de indicaciones sobre el qué hacer en el proceso de desarrollo de 
+          em software
+          | , por el contrario, trata de una forma de pensar en colaboración y los flujos de trabajo, en el cual se definen una serie de valores que orientan las decisiones respecto a lo que se hace y la forma en que se hace. 
         p Las metodologías ágiles buscan generar una serie de piezas que agregan valor y satisfacción al cliente. En estas metodologías se implementan enfoques flexibles y de trabajo en equipo para mejorar el 
           em performance 
           | del proceso, con la finalidad de ofrecer mejoras constantes. 
       .col-lg-6.order-first.order-lg-last
         .titulo-quinto.color-acento-contenido
-          span <b>Figura 12.</b> Representación de una iteración en la implementación de una metodología ágil
+          span <b>Figura 12.</b><br>Representación de una iteración en la implementación de una metodología ágil
         figure
           img(src='@/assets/curso/t2/f81.svg' alt='imagen relacionada')
 
@@ -1595,7 +1671,9 @@
             | Las personas y las interacciones antes que los procesos y las herramientas 
           li
             i.fas.fa-angle-right
-            | El software en funcionamiento antes que la documentación exhaustiva 
+            | El 
+            em software 
+            | en funcionamiento antes que la documentación exhaustiva 
           li
             i.fas.fa-angle-right
             | La colaboración con el cliente antes que la negociación contractual
@@ -1613,10 +1691,12 @@
           em sprint
           | /iteración; no obstante, estas se pueden dar en un mismo momento, es decir que puede incluir una sola planificación con actividades tanto del reléase como del 
           em sprint
-          | . Se debe tener en cuenta que en un proyecto ágil las pruebas de software se realizan en cada iteración.
+          | . Se debe tener en cuenta que en un proyecto ágil las pruebas de 
+          em software 
+          | se realizan en cada iteración.
       .col-lg-6
         .titulo-quinto.color-acento-contenido
-          span <b>Figura 13</b> Actividades de los sprints y el reléase simultáneamente
+          span <b>Figura 13</b><br>Actividades de los sprints y el reléase simultáneamente
 
         img(src='@/assets/curso/t2/f83.svg' alt='imagen relacionada')
     .cajon.color-acento-contenido.p-4.mb-5
@@ -1659,11 +1739,15 @@
           | en las pruebas agiles la retroalimentación es continua de modo que el diseño del producto logre los propósitos del negocio requeridos.
 
     h3 Cuadrantes de las pruebas en metodologías ágiles
-    p Para planificar las pruebas ágiles nos podemos basar en los cuadrantes del agile testing, que nos aporta una biblioteca de tipos de pruebas que se pueden usar para cumplir con los requerimientos.
-    p Los cuatro cuadrantes son una clasificación que contribuye al momento de planificar las pruebas ágiles, asegurando que se tengan en cuenta los métodos y recursos para alcanzar productos de software de calidad. 
+    p Para planificar las pruebas ágiles nos podemos basar en los cuadrantes del 
+      em agile testing
+      | , que nos aporta una biblioteca de tipos de pruebas que se pueden usar para cumplir con los requerimientos.
+    p Los cuatro cuadrantes son una clasificación que contribuye al momento de planificar las pruebas ágiles, asegurando que se tengan en cuenta los métodos y recursos para alcanzar productos de 
+      em software 
+      | de calidad. 
 
     .titulo-quinto.color-acento-contenido
-      span <b>Figura 14</b> Cuadrantes de las pruebas ágiles
+      span <b>Figura 14</b><br>Cuadrantes de las pruebas ágiles
     img(src='@/assets/curso/t2/f84.svg' alt='cuadrantes de las pruebas ágiles')
     figcaption.mb-5 Nota. 
       a(href='https://lisacrispin.com/2011/11/08/using-the-agile-testing-quadrants/' target='_blank')
@@ -1684,7 +1768,13 @@
     img(src='@/assets/curso/t2/f85.svg' alt='especificaciones')
 
     .tarjeta.bg1.p-5.mb-5
-      img(src='@/assets/curso/c1.svg' alt='1' style='width:60px')
+      .row.mb-4.align-items-center
+        .col
+          img(src='@/assets/curso/c1.svg' alt='1' style='width:60px')
+        .col-lg-9
+          h3 Pruebas de críticas al producto 
+            em (Critique the Product)
+
       p Estas pruebas se enfocan en apoyar al equipo desarrollador a través de la construcción (desarrollo) del producto, puesto que le orientan sobre su funcionalidad, posteriormente contribuyen a la introducción de un nuevo código y la refactorización sin que genere resultados imprevistos en el comportamiento del sistema, se encuentran en:
       .row.align-items-center
         .col-lg-6
@@ -1714,7 +1804,13 @@
             img(src='@/assets/curso/t2/f86.svg' alt='imagen relacionada')
 
     .tarjeta.bg1.p-5.mb-5
-      img(src='@/assets/curso/c2.svg' alt='2' style='width:60px')
+      .row.mb-4.align-items-center
+        .col
+          img(src='@/assets/curso/c2.svg' alt='2' style='width:60px')
+        .col-lg-9
+          h3 Pruebas de apoyo al equipo 
+            em (Supporting the Team)
+
       p Estas pruebas pueden tener un carácter positivo, puesto que a partir de ellas se pueden sugerir o realizar mejoras. Cuando se ejecutan, la idea es simular de la forma más fiel, el ambiente real en el cual serán ejecutadas, así mismo estas pruebas frecuentemente son realizadas por los usuarios finales como pruebas de aceptación (UAT)
       .row.align-items-center
         .col-lg-6
@@ -1766,7 +1862,9 @@
           .col
             p.mb-0 
               b Comunicación
-              | , el desarrollo de software requiere de trabajo en equipo por lo cual es importante la transferencia de conocimientos y utilizar medios de comunicación apropiados, se propone la discusión cara a cara con herramientas que permitan dibujar o escribir como por ejemplo un tablero.
+              | , el desarrollo de 
+              em software 
+              | requiere de trabajo en equipo por lo cual es importante la transferencia de conocimientos y utilizar medios de comunicación apropiados, se propone la discusión cara a cara con herramientas que permitan dibujar o escribir como por ejemplo un tablero.
         hr
         .row.align-items-center
           .col-auto

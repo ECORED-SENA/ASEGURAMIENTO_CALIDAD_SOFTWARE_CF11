@@ -172,8 +172,6 @@ export default {
     {
       referencia:
         'Bustamante Ramírez, J. (2011). Sistema de informes para pruebas de software. Obtenido de ',
-      link:
-        'http://bibliotecadigital.iue.edu.co/xmlui/handle/20.500.12717/153 ',
     },
     {
       referencia:
