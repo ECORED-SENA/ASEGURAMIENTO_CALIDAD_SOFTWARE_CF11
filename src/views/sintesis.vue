@@ -9,10 +9,13 @@
     p Contempla desde la idea de negocio, teniendo en cuenta las características misionales empresariales, como elemento señalizador del horizonte que provee este tipo de proyectos, hasta los marcos de referencia que existen no solo desde el ISO, sino además involucrando el modelo CMMI, junto con lo correspondiente a la calidad del 
       em software 
       | relacionada con el producto y con las personas.
-    p En relación a éste último componente relacionado con las personas, involucra modelos como PSP/TSP, SCRUM, y las características correspondientes a las metodologías ágiles y XP.
+    p En relación a este último componente relacionado con las personas, involucra modelos como PSP/TSP, SCRUM, y las características correspondientes a las metodologías ágiles y XP.
     p Por último, se describe la documentación requerida en el proceso de diseño, aplicación y análisis de resultados, esto con el fin de comprobar y verificar idoneidad desde el proceso de calidad del 
       em software
       | , además de garantizar un producto bien hecho. En el mapa conceptual podrá hacer un breve recorrido sobre las temáticas abordadas.
+
+    br
+    br
 
     .row.justify-content-center
       .col-lg-10.mb-5

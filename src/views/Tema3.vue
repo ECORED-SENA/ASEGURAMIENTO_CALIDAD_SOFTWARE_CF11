@@ -13,7 +13,7 @@
       .col-lg-6
         p La documentación de productos de 
           em software 
-          | son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar las arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto 
+          | son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar la arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto 
           em software 
           | y su mantenimiento en el futuro resaltando que no solo se documenta un proceso respecto a la calidad, sino, también las fases del desarrollo del 
           em software
@@ -65,7 +65,7 @@
               em software
               | , los involucrados.
 
-    p.mb-5 Cada entidad puede definir su propio plan de pruebas basados en buenas prácticas, de acuerdo con las siguientes características, veamos:
+    p.mb-5 Cada entidad puede definir su propio plan de pruebas basado en buenas prácticas, de acuerdo con las siguientes características, veamos:
 
     SlyderD.mb-5.bg5.p-5.img50pc(:datos="datosSlydert3")
 
@@ -188,9 +188,9 @@
       .bg1.p-3(x="27.4%" y="9%" numero="")
         p.mb-0 Debe contener el nombre del sistema a probar, el nombre del documento y la versión.
       .bg1.p-3(x="27.4%" y="29.5%" numero="")
-        p.mb-0 Especificar en qué consiste el sistema y cual sistema se va a probar. También se incluye y describe el alcance de las pruebas.
+        p.mb-0 Especificar en qué consiste el sistema y cuál sistema se va a probar. También se incluye y describe el alcance de las pruebas.
       .bg1.p-3(x="27.4%" y="50%" numero="")
-        p.mb-0 En esta parte se listan los tipos de prueba a realizar y los requerimientos a probar en el proceso. Específica y describe las características a probar y las que no se van a probar.
+        p.mb-0 En esta parte se listan los tipos de prueba a realizar y los requerimientos a probar en el proceso. Especifica y describe las características a probar y las que no se van a probar.
       .bg1.p-3(x="27.4%" y="70.5%" numero="")
         p.mb-0 Representa el enfoque recomendado para la comprobación de las aplicaciones.
       .bg1.p-3(x="27.4%" y="91%" numero="")
@@ -242,7 +242,7 @@
                   | Objetivo del caso de prueba, tambi&eacute;n describe que probara, en ciertas ocasiones se incluye el ambiente de pruebas.
             tr
               td
-                p Numero de orden
+                p Número de orden
                 p Ejecuci&oacute;n
               td
                 p
@@ -365,19 +365,19 @@
           .col-8
             img(src='@/assets/curso/t3/f18.svg' alt='AvatarTop')
         h2.text-center.text-white Análisis de riesgos
-        p.text-center.text-white Define que se incluye en la automatización de pruebas.
+        p.text-center.text-white Define qué se incluye en la automatización de pruebas.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/t3/f19.svg' alt='AvatarTop')
         h2.text-center.text-white Automatización de pruebas
-        p.text-center.text-white Define que se incluirá en la automatización.
+        p.text-center.text-white Define qué se incluirá en la automatización.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/t3/f20.svg' alt='AvatarTop')
         h2.text-center.text-white Ambiente de pruebas
-        p.text-center.text-white Define que se necesita en relaciona al ambiente de pruebas.
+        p.text-center.text-white Define qué se necesita en relacion al ambiente de pruebas.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8

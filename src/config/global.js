@@ -122,13 +122,19 @@ export default {
             titulo: 'Aplicar los instrumentos de calidad de <em>software</em>',
             hash: 't_3_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Análisis y entrega de resultados',
+            hash: 't_3_3',
+          },
         ],
       },
     ],
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -190,7 +196,7 @@ export default {
     {
       referencia:
         'Maida, EG, Pacienzia, J. (2015). Metodologías de desarrollo de software [en línea]. Tesis de Licenciatura en Sistemas y Computación. Facultad de Química e Ingeniería “Fray Rogelio Bacon”. Universidad Católica Argentina, 2015. Disponible en: ',
-      link: 'https://bit.ly/3hJMwXP  [Fecha de consulta: 17-sep-2021]',
+      link: 'https://repositorio.uca.edu.ar/handle/123456789/522',
     },
     {
       referencia:
@@ -216,7 +222,7 @@ export default {
     },
     {
       referencia:
-        'Sommerville, I., Galipienso, M. I. A., & Martinez, A. B. (2005). Ingenieria del Software. Pearson Educación.',
+        'Sommerville, I., Galipienso, M. I. A., & Martinez, A. B. (2005). Ingeniería del Software. Pearson Educación.',
     },
   ],
   glosario: [
@@ -243,14 +249,7 @@ export default {
     },
     {
       texto:
-        'Galin, D. (2004). <em>Software Quality From theory to implementation. Pearson Education Limited.</em> (Consultado 6/11/2021)',
-      tipo: 'Libro',
-      link:
-        'http://desy.lecturer.pens.ac.id/Manajemen%20Kualitas%20Perangkat%20Lunak/ebook/Software%20Quality%20Assurance%20From%20Theory%20to%20Implementation.pdf',
-    },
-    {
-      texto:
-        'Callejas Cuervo, M., Alarcón Aldana, A. C., & Álvarez Carreño, A. M. (01 de 06 de 2017).',
+        'Callejas Cuervo, M., Alarcón Aldana, A. C., & Álvarez Carreño, A. M. (01 de 06 de 2017). Modelos de calidad del software, un estado del arte.',
       tipo: 'Artículo',
       link:
         'https://revistas.unilibre.edu.co/index.php/entramado/article/view/428',

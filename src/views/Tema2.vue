@@ -10,7 +10,7 @@
 
     .row.mb-5
       .col-lg-6
-        p Un Marco de Referencia aporta las directrices y saberes teóricos obtenidos con base en un estudio, una investigación y un análisis previo, que permite estimar en este caso que un proceso de calidad fundamentado a través del estudio e investigación; estaría en la capacidad de plantear mejores prácticas y definir procedimientos que optimicen dicho proceso, para garantizar que éste represente una mejora en el proceso de calidad y en la calidad del producto. Por lo anterior este marco de referencia contiene los fundamentos de la calidad del software que permitirá construir un plan de pruebas teniendo en cuenta el proceso de desarrollo de 
+        p Un marco de referencia aporta las directrices y saberes teóricos obtenidos con base en un estudio, una investigación y un análisis previo, que permite estimar en este caso que un proceso de calidad fundamentado a través del estudio e investigación; estaría en la capacidad de plantear mejores prácticas y definir procedimientos que optimicen dicho proceso, para garantizar que este represente una mejora en el proceso de calidad y en la calidad del producto. Por lo anterior este marco de referencia contiene los fundamentos de la calidad del software que permitirá construir un plan de pruebas teniendo en cuenta el proceso de desarrollo de 
           em software
           | , los modelos de desarrollo, metodologías de desarrollo tradicionales y ágiles, estándares de calidad, planificación de pruebas de 
           em software 
@@ -33,7 +33,7 @@
           | , requiere de una serie de etapas con el objetivo de garantizar que el programa desarrollado es fiable, eficiente, seguro y cumple con los requerimientos de los usuarios finales.          
         p Este proceso de desarrollo contiene una serie de fases que permiten validar el proceso de desarrollo del 
           em software 
-          | garantizando que se cumplan con los requerimientos para la verificación y aplicación de los procedimientos de desarrollo, comprobando las metodologías y técnicas usadas. Este proceso es muy aplicable en los casos en donde se utilicen metodologías tradicionales como la metodología en cascada, que se describe a continuación, las fases que ésta contiene y en qué momento se realiza las pruebas de calidad de 
+          | garantizando que se cumplan con los requerimientos para la verificación y aplicación de los procedimientos de desarrollo, comprobando las metodologías y técnicas usadas. Este proceso es muy aplicable en los casos en donde se utilicen metodologías tradicionales como la metodología en cascada, que se describe a continuación, las fases que esta contiene y en qué momento se realiza las pruebas de calidad de 
           em software.
         h4 Metodología cascada
         p El desarrollo en cascada es un proceso lineal por lo que se identifica en separar los procesos del desarrollo de 
@@ -56,7 +56,7 @@
           em Managing the Development of Large Software Systems
           | , proporciona una reflexión constructiva acerca de los procedimientos lineales y a modo de alternativa, presenta un modelo iterativo incremental en la que cada una de las fases se basa en el resultado de la fase la anterior y valida los resultados de esta.
 
-    p.mb-5 La metodología en cascada está acotada por cada una de las fases o etapas anteriores, dado que no es posible acceder a la fase de diseño sino se ha terminado la fase de requisitos, por lo cual son de naturaleza bloqueante. Este tipo de metodologías también es conocida como tradicional, ya que fueron los primeros modelos que se incorporaron en el proceso de desarrollo de 
+    p.mb-5 La metodología en cascada está acotada por cada una de las fases o etapas anteriores, dado que no es posible acceder a la fase de diseño si no se ha terminado la fase de requisitos, por lo cual son de naturaleza bloqueante. Este tipo de metodologías también es conocida como tradicional, ya que fueron los primeros modelos que se incorporaron en el proceso de desarrollo de 
       em software
       | , aunque con el tiempo se identificaron las problemáticas al necesitar obtener productos a corto plazo. 
 
@@ -170,7 +170,7 @@
             em System and Software Quality Requirements and Evaluation (SQuaRE)
             | , tiene el objetivo de especificar en un documento el conjunto de guías y patrones que aseguran la óptima utilización del 
             em software 
-            | de un negocio. No obstante, este procedimiento se realiza en compañías que realizan sus propias aplicaciones para la organización y gestión interna, en consecuencia, se refuerza la creación de forma correcta y usabilidad en los procesos internos.
+            | de un negocio. No obstante, este procedimiento se realiza en compañías que desarrollan sus propias aplicaciones para la organización y gestión interna, en consecuencia, se refuerza la creación de forma correcta y usabilidad en los procesos internos.
 
     .row.justify-content-center
       .col-lg-4.tarjeta.fcap.p-4.text-white.mx-3.mb-4(data-aos='flip-right')
@@ -230,7 +230,7 @@
           img(src='@/assets/curso/t2/f15.svg', alt='división ISO/IEC')
       .fcp20.p-4(x="35%" y="16%" numero="")
         h5 Las normas de esta división presentan modelos detallados de calidad, así como las características para calidad externa, interna y en uso del producto 
-          em software 
+          em software. 
           |  Actualmente esta división está conformada por:
         p ISO/IEC 25010 - 
           em System and software quality models
@@ -343,10 +343,11 @@
         | Mejora continua en la satisfacción de los clientes. 
       li 
         i.fas.fa-angle-right
-        | Aumento en la cuota de mercado
+        | Aumento en la cuota de mercado.
       li 
         i.fas.fa-angle-right
-        | Obtener reconocimiento de excelencia en la industria
+        | Obtener reconocimiento de excelencia en la industria.
+
     p CMMI presenta dos modelos una está estructurada en cinco niveles de madurez y la otra está estructurada en seis niveles de capacidad. Las áreas de proceso están categorizadas en administración de procesos, administración de proyectos, ingeniería y soporte. 
 
     h3 Estructurada por nivel de madurez
@@ -357,19 +358,19 @@
     ul.lista-ul
       li 
         i.fas.fa-angle-right
-        | Inicial 
+        | Inicial. 
       li 
         i.fas.fa-angle-right
-        | Gestionado
+        | Gestionado.
       li 
         i.fas.fa-angle-right
-        | Definido 
+        | Definido. 
       li 
         i.fas.fa-angle-right
-        | Cuantitativamente gestionado 
+        | Cuantitativamente gestionado. 
       li 
         i.fas.fa-angle-right
-        | Optimizado 
+        | Optimizado.
 
     .col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
@@ -397,7 +398,7 @@
             p Se ha logrado con éxito obtener los objetivos específicos de los niveles 2, 3 y 4 y los objetivos genéricos en los niveles 2 y 3. En este nivel se seleccionan los procesos que aportan significativamente al rendimiento del proceso en general, concluyendo subprocesos que se controlan por medio de métricas, reportes y estadísticas que permiten medir la capacidad. Estas métricas posibilitan identificar casos que generen problemas para ser corregidos y no se repitan en el futuro, también para tomar decisiones de negocio que proyectan el crecimiento de la organización. 
             p Una diferencia importante entre el nivel 3 y 4, es que en el nivel 3 los procesos son medidos de forma cualitativamente predecibles, dando paso a la especulación, mientras que en el nivel 4 se evalúa el rendimiento real de los mismos procesos, y esto se determina por medio de técnicas estadísticas y otras técnicas cuantitativas lo previsible dentro de la organización. 
           .p-4(titulo='Nivel de madurez optimización' numero='Nivel 5')
-            p En este nivel la organización ha logrado alcanzar todos los goalsof definidos en los niveles 1, 2, 3, 4 y 5, y los objetivos genéricos en los niveles 2 y 3. Este nivel está centrado en optimizar y en la mejora continua del rendimiento de los procesos de la organización. Una de las diferencias entre el nivel 4 y el 5 es que, en el nivel 4, los procesos están diseñados para causas especiales y proporcionan métricas para ser evaluadas por técnicas estadísticas; mientras que en el nivel 5, los procesos están diseñados para que se encarguen de las causas comunes de la variación y el cambio de los procesos, conservando las estadísticas para poder prever acciones futuras, este ajuste permite llegar a los objetivos cuantitativos de mejora continua. 
+            p En este nivel la organización ha logrado alcanzar todos los objetivos definidos en los niveles 1, 2, 3, 4 y 5, y los objetivos genéricos en los niveles 2 y 3. Este nivel está centrado en optimizar y en la mejora continua del rendimiento de los procesos de la organización. Una de las diferencias entre el nivel 4 y el 5 es que, en el nivel 4, los procesos están diseñados para causas especiales y proporcionan métricas para ser evaluadas por técnicas estadísticas; mientras que en el nivel 5, los procesos están diseñados para que se encarguen de las causas comunes de la variación y el cambio de los procesos, conservando las estadísticas para poder prever acciones futuras, este ajuste permite llegar a los objetivos cuantitativos de mejora continua. 
 
     h3 Estructurada por nivel de capacidad
     .tarjeta.fcap.p-4.mb-5
@@ -415,22 +416,22 @@
       ul.lista-ul
         li
           i.fas.fa-angle-right
-          | 0 - Incompleto
+          | 0 - Incompleto.
         li
           i.fas.fa-angle-right
-          | 1 - Se ha realizado 
+          | 1 - Se ha realizado. 
         li
           i.fas.fa-angle-right
-          | 2 - Administrativo 
+          | 2 - Administrativo. 
         li
           i.fas.fa-angle-right
-          | 3 - Definido
+          | 3 - Definido.
         li
           i.fas.fa-angle-right
-          | 4 - Cuantitativamente gestionado 
+          | 4 - Cuantitativamente gestionado .
         li
           i.fas.fa-angle-right
-          | 5 - Optimizado
+          | 5 - Optimizado.
 
     p Esta representación es un conjunto predefinido de áreas de proceso, que se mide por el logro de los objetivos tanto genéricos como específicos. En el siguiente recurso educativo se describen las características de cada nivel de madurez en detalle, veamos:
     ImagenInfografica.color-secundario.mb-5
@@ -517,7 +518,7 @@
           | estimando que es menos costoso su corrección.
       p La calidad del 
         em software
-        | , puede medirse hasta la fase de implementación, pero de ser detectados allí los problemas de construcción del producto, implicaría costos extras, por esta razón se aconseja atender y solucionar los posibles errores en las fases iniciales, como en el diseño. Por lo tanto, es necesario tener en cuenta el proceso de SQA durante las etapas iniciales de la construcción del producto, puesto que es donde se definen las características de éste y lo que debe garantizar para satisfacer las necesidades implícitas y explícitas. Si el diseño y los requerimientos no están correctamente definidos, es decir que son ambiguos, incompletos o son incoherentes, al momento de implementar el producto va a ser muy costosa su corrección.
+        | , puede medirse hasta la fase de implementación, pero de ser detectados allí los problemas de construcción del producto, implicaría costos extras, por esta razón se aconseja atender y solucionar los posibles errores en las fases iniciales, como en el diseño. Por lo tanto, es necesario tener en cuenta el proceso de SQA durante las etapas iniciales de la construcción del producto, puesto que es donde se definen las características de estey lo que debe garantizar para satisfacer las necesidades implícitas y explícitas. Si el diseño y los requerimientos no están correctamente definidos, es decir que son ambiguos, incompletos o son incoherentes, al momento de implementar el producto va a ser muy costosa su corrección.
 
     h3 Funciones del aseguramiento de la calidad del 
       em software 
@@ -586,7 +587,7 @@
       em software 
       | (SQA) se deben tener en cuenta diversos principios básicos:
 
-    ImagenInfografica.color-acento-contenido
+    ImagenInfografica.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/t2/f32.svg', alt='7 principios de aseguramiento de la calidad del software (SQA)')
@@ -601,7 +602,7 @@
           em software
           | , sino más bien una actividad sincrónica entre todas las personas que colaboran para el desarrollo del producto.
       .fcp20.p-4(x="30.5%" y="88%" numero="")
-        p.mb-0 La gestión y la planificación de la calidad debe ser eficaz y previamente definido y ejecutado, por lo tanto, se deben establecer procesos, estándares y una planeación claramente definida para poder asegurar la calidad del producto, donde contengan puntos de verificación y un proceso claro y definido que incluya que, quien, y cuando, va a realizar la verificación o medición de la calidad. 
+        p.mb-0 La gestión y la planificación de la calidad debe ser eficaz y previamente definido y ejecutado, por lo tanto, se deben establecer procesos, estándares y una planeación claramente definida para poder asegurar la calidad del producto, donde contengan puntos de verificación y un proceso claro y definido que incluya qué, quién, y cuándo, va a realizar la verificación o medición de la calidad. 
       .fcp20.p-4(x="72.1%" y="12%" numero="")
         p.mb-0 Se deben dirigir los esfuerzos a la prevención de defectos, es decir que una vez que un defecto es detectado además de corregirlo se deben tomar medidas necesarias para que no vuelva a ocurrir. Es en este punto donde se tiene en cuenta lo que es el análisis de las causas raíces, una vez que se encuentra un defecto se debe analizar por qué se ocasionó y cuál fue la causa que lo originó, por ejemplo si es un problema en el proceso, o si es un problema con las herramientas que se están utilizando, o si fue una mala definición de los requerimientos, lo que constata que un error no solamente se soluciona o resuelve, sino que hay que indagar más en la causa raíz; porque de no hacerlo en el futuro se va a presentar el mismo problema.
       .fcp20.p-4(x="76%" y="37%" numero="")
@@ -614,11 +615,13 @@
       .fcp20.p-4(x="76%" y="63%" numero="")
         p.mb-0 La calidad al igual que la productividad, los costos y los plazos de entrega están al mismo nivel, lo que quiere decir que el cumplimiento de los plazos de entrega y mantenerse dentro del presupuesto también son variables que se evalúan dentro del proceso de aseguramiento de calidad de 
           em software
-          | , pues de que sirve un producto sin defectos cuando ha costado mucho más de lo presupuestado y se ha entregado cuando ya no será útil.
+          | , pues de qué sirve un producto sin defectos cuando ha costado mucho más de lo presupuestado y se ha entregado cuando ya no será útil.
       .fcp20.p-4(x="71%" y="88%" numero="")
         p.mb-0 Es esencial la participación de la dirección, que ha de propiciar la calidad, esto quiere decir que la dirección debe ser el primer interesado en asegurar la calidad y de proveer las directrices, herramientas y el apoyo necesarios para que se pueda lograr, por lo tanto si no hay apoyo de la dirección para implementar y ejecutar el proceso de aseguramiento de calidad del 
           em software
           | , será difícil que se pueda llevar a cabo la calidad y por ende los productos no van a salir con la calidad requerida.
+    br
+    br
 
     h3 Componentes del aseguramiento de la calidad de 
       em software 
@@ -668,7 +671,8 @@
       .row.justify-content-center(titulo='Control de la documentación')
         .col-lg-10
           p Esto incluye controlar las versiones de los documentos y garantizar la disponibilidad y el acceso a los mismos por todos los involucrados en el proceso.
-
+    br
+    br
     h3 Proceso del aseguramiento de la calidad de 
       em software 
       | (SQA)
@@ -683,9 +687,7 @@
             figure
               img(src='@/assets/curso/t2/f38.svg', alt='imagen relacionada').mb-4
             h3.text-center Planificación
-            p.text-center En el proceso de aseguramiento de la calidad de 
-              em software 
-              | se encuentran tres etapas.
+            p.text-center Se planifica que es lo que se va a probar, es decir se define el alcance de las pruebas.
         .col-lg-3.tarjeta.fblanco.boxShadow.mx-3
           .p-4(data-aos='flip-down')
             figure
@@ -753,7 +755,7 @@
                   em software 
                   | cumple con su especificaci&oacute;n.
               td
-                p Usabilidad: La facilidad de uso del 
+                p Usabilidad: la facilidad de uso del 
                   em software.
               td
                 p Operatividad
@@ -761,13 +763,13 @@
                 p Comunicaci&oacute;n
             tr
               td
-                p Integridad: La protecci&oacute;n de programa del acceso no autorizado
+                p Integridad: la protecci&oacute;n de programa del acceso no autorizado
               td
                 p Control de Acceso
                 p Auditor&iacute;a de Acceso
             tr
               td
-                p Correcci&oacute;n: El grado en que una funcionalidad coincide con su especificaci&oacute;n.
+                p Correcci&oacute;n: el grado en que una funcionalidad coincide con su especificaci&oacute;n.
               td
                 p Rastreabilidad
                 p Completitud
@@ -775,7 +777,7 @@
             tr
               td
                 p
-                  | Fiabilidad &ndash; confiabilidad: La capacidad de los sistemas de no fallar / la medida en que falla el sistema
+                  | Fiabilidad &ndash; confiabilidad: la capacidad de los sistemas de no fallar / la medida en que falla el sistema
               td
                 p Consistencia
                 p Exactitud
@@ -783,10 +785,10 @@
             tr
               td
                 p
-                  | Fiabilidad &ndash; confiabilidad: La capacidad de los sistemas de no fallar / la medida en que falla el sistema
+                  | Fiabilidad &ndash; confiabilidad: la capacidad de los sistemas de no fallar / la medida en que falla el sistema
               td
-                p Eficiencia en Ejecuci&oacute;n
-                p Eficiencia en Almacenamiento
+                p Eficiencia en ejecuci&oacute;n
+                p Eficiencia en almacenamiento
             tr
               td(rowspan='3' width='170')
                 p
@@ -794,14 +796,14 @@
                   em software.
               td
                 p
-                  | Mantenibilidad: Esfuerzo requerido para localizar y arreglar un fallo en el programa dentro de su entorno operativo.
+                  | Mantenibilidad: esfuerzo requerido para localizar y arreglar un fallo en el programa dentro de su entorno operativo.
               td
                 p Simplicidad
                 p Concreci&oacute;n
             tr
               td
                 p
-                  | Facilidad de Prueba: La facilidad del programa de realizar pruebas para asegurarse de que est&aacute; libre de errores y cumple con su especificaci&oacute;n.
+                  | Facilidad de Prueba: la facilidad del programa de realizar pruebas para asegurarse de que est&aacute; libre de errores y cumple con su especificaci&oacute;n.
               td
                 p Simplicidad
                 p Instrumentaci&oacute;n
@@ -810,10 +812,11 @@
             tr
               td
                 p
-                  | Flexibilidad: La facilidad de hacer los cambios necesarios seg&uacute;n lo solicitado en el entorno operativo
+                  | Flexibilidad: la facilidad de hacer los cambios necesarios seg&uacute;n lo solicitado en el entorno operativo
               td
                 p Auto-descripci&oacute;n
-                p Capacidad de expansi&oacute;n Generalidad
+                p Capacidad de expansi&oacute;n 
+                p Generalidad
                 p Modularidad
             tr
               td(rowspan='3' width='170')
@@ -825,12 +828,12 @@
                 p Reusabilidad: la facilidad de reutilizaci&oacute;n de 
                   em software en un contexto diferente.
               td
-                p &nbsp;Auto-descripci&oacute;n
+                p &nbsp;Autodescripci&oacute;n
                 p &nbsp;Generalidad
                 p &nbsp;Modularidad
             tr
               td
-                p Interoperabilidad: El esfuerzo requerido para acoplar el sistema a otro sistema.
+                p Interoperabilidad: el esfuerzo requerido para acoplar el sistema a otro sistema.
               td
                 p &nbsp;Modularidad
                 p Similitud de comunicaci&oacute;n
@@ -852,14 +855,14 @@
 
     .bg3.p-4.mb-5
       h3 Modelo FURPS
-      p Este modelo lo desarrolló Hewlett-Packard en el año 1987. Incluye el desarrollo de una serie de factores de calidad de 
+      p.mb-5 Este modelo lo desarrolló Hewlett-Packard en el año 1987. Incluye el desarrollo de una serie de factores de calidad de 
         em software
         | , teniendo en cuenta el acrónimo de FURPS: funcionalidad (Functionality), usabilidad (Usability), confiabilidad (Reliability), desempeño (Performance) y capacidad de soporte (Supportability). En la siguiente tabla se establece el diagrama de FURPS, los factores y los criterios de calidad.
       .row
-        .col-lg-6
+        .col-auto
           figure
-            img(src='@/assets/curso/t2/f43.svg' alt='imagen relacionada')
-        .col-lg-6
+            img(src='@/assets/curso/t2/f43.svg' alt='imagen relacionada', style="width:350px;")
+        .col
           .titulo-sexto.color-acento-contenido
             span 
               b Tabla 2. 
@@ -879,14 +882,14 @@
                   td
                     p Funcionalidad
                   td
-                    p Caracter&iacute;sticas y capacidades del programa Generalidad de las funciones
-                    p Seguridad del Sistema
+                    p Caracter&iacute;sticas y capacidades del programa generalidad de las funciones
+                    p Seguridad del sistema
                 tr
                   td
                     p Usabilidad
                   td
-                    p Factores Humanos
-                    p Factores Est&eacute;ticos
+                    p Factores humanos
+                    p Factores est&eacute;ticos
                     p Consistencia de la interfaz
                     p Documentaci&oacute;n
                 tr
@@ -896,7 +899,8 @@
                     p Frecuencia y severidad de fallos
                     p Exactitud de las salidas
                     p Tiempo medio de fallos
-                    p Capacidad de recuperaci&oacute;n ante fallos Capacidad de predicci&oacute;n
+                    p Capacidad de recuperaci&oacute;n ante fallos 
+                    p Capacidad de predicci&oacute;n
                 tr
                   td
                     p Rendimiento
@@ -912,7 +916,7 @@
                   td
                     p Extensibilidad
                     p Adaptabilidad
-                    p Capacidad de Prueba
+                    p Capacidad de prueba
                     p Capacidad de configuraci&oacute;n
                     p Compatibilidad
                     p Requisitos de instalaci&oacute;n
@@ -933,10 +937,10 @@
               | Aplicaciones primarias.
             li
               i.fas.fa-angle-right
-              | Construcciones Intermedias (factores)
+              | Construcciones intermedias (factores)
             li
               i.fas.fa-angle-right
-              | Construcciones Primitivas.
+              | Construcciones primitivas.
             li
               i.fas.fa-angle-right
               | Métricas que establecen valores para los criterios (construcciones primitivas)
@@ -986,14 +990,14 @@
                   p Accesibilidad
                   p Comunicatividad
                   p Estructuraci&oacute;n
-                  p Auto-descripci&oacute;n
+                  p Autodescripci&oacute;n
               tr
                 td
                   p Comprensibilidad
                 td
                   p Consistencia
                   p Estructuraci&oacute;n
-                  p Auto-descripci&oacute;n
+                  p Autodescripci&oacute;n
                   p Concisi&oacute;n
                   p Legibilidad
                   p Expansibilidad
@@ -1205,7 +1209,7 @@
       .col-lg-6
         LineaTiempoD.color-primario
           .p-4(titulo='Facilidad de mantenimiento' numero='13')
-            p Trabajo necesario para Ubicar y arreglar un error en un programa, este factor responde a la pregunta ¿permite ser corregido de manera fácil?
+            p Trabajo necesario para ubicar y arreglar un error en un programa, este factor responde a la pregunta ¿permite ser corregido de manera fácil?
           .p-4(titulo='Facilidad de prueba' numero='14')
             p Nivel de trabajo requerido para probar un programa de forma que asegure la ejecución de las funciones solicitadas. ¿Permite ser probado de manera fácil?
           .p-4(titulo='Facilidad de interoperabilidad' numero='15')
@@ -1258,7 +1262,7 @@
           em software 
           | contiene procesos que ayudan a que los ingenieros de 
           em software 
-          | manejen, controlen y mejoren el trabajo, teniendo también la oportunidad de construir equipos auto dirigidos y ser participantes efectivos del mismo, pero se debe tener en cuenta que primero deben tener el conocimiento para controlar y mejorar su trabajo, y después tener el conocimiento para trabajar en equipo. Por lo anterior el ingeniero podrá plantear mucho mejor el trabajo, medir la calidad del producto, mejorar las técnicas y determinar las medidas estándares para desempeño y calidad. En la calidad relacionada con las personas se establecen dos procesos PSP y TSP que proporcionan métodos detallados de planificación y estimación, tal como se muestra en el siguiente punto.
+          | manejen, controlen y mejoren el trabajo, teniendo también la oportunidad de construir equipos autodirigidos y ser participantes efectivos del mismo, pero se debe tener en cuenta que primero deben tener el conocimiento para controlar y mejorar su trabajo, y después tener el conocimiento para trabajar en equipo. Por lo anterior el ingeniero podrá plantear mucho mejor el trabajo, medir la calidad del producto, mejorar las técnicas y determinar las medidas estándares para desempeño y calidad. En la calidad relacionada con las personas se establecen dos procesos PSP y TSP que proporcionan métodos detallados de planificación y estimación, tal como se muestra en el siguiente punto.
         h3 PSP/TSP
         p 
           em Personal  Software Process 
@@ -1528,7 +1532,7 @@
         .p-4.text-center
           h4 Equipo de desarrollo 
             em (Development team)
-          p Son los responsables de la transformación de los requerimientos en código ejecutable a ser usado por el cliente, pero también son responsables de la planificación de las iteraciones, establecimiento de características para tener en cuenta en la verificación de un requerimiento terminado y presentación de avances a los clientes. Generalmente es un equipo auto organizado y auto gestionado.
+          p Son los responsables de la transformación de los requerimientos en código ejecutable a ser usado por el cliente, pero también son responsables de la planificación de las iteraciones, establecimiento de características para tener en cuenta en la verificación de un requerimiento terminado y presentación de avances a los clientes. Generalmente es un equipo autoorganizado y autogestionado.
 
     p.mb-5 Además de los roles, Scrum define un conjunto de eventos con participantes y objetivos claros que se desarrollan en momentos particulares del flujo general de Scrum, a continuación, se detalla cada uno de estos eventos:
       
@@ -1665,21 +1669,22 @@
           img(src='@/assets/curso/t2/f82.jpg' alt='imagen relacionada')
       .col-lg-6
         p La metodología ágil nació aproximadamente en el año 2001, dando respuesta a los proyectos gestionados por medio de metodologías en cascada, por lo cual una serie de desarrolladores redactó el manifiesto ágil. En este manifiesto se describieron cuatro características principales las cuales se deberían priorizar por encima de cualquier otra cosa. Por lo cual los equipos que trabajan bajo esta vertiente deben valorar lo siguiente: 
-        ul.lista-ul
+
+        ul.list--cs.mb-2
           li
-            i.fas.fa-angle-right
-            | Las personas y las interacciones antes que los procesos y las herramientas 
+            i.fas.fa-angle-right.me-2
+            | Las personas y las interacciones antes que los procesos y las herramientas.           
           li
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right.me-2
             | El 
             em software 
-            | en funcionamiento antes que la documentación exhaustiva 
+            | en funcionamiento antes que la documentación exhaustiva. 
           li
-            i.fas.fa-angle-right
-            | La colaboración con el cliente antes que la negociación contractual
+            i.fas.fa-angle-right.me-2
+            | La colaboración con el cliente antes que la negociación contractual.
           li
-            i.fas.fa-angle-right
-            | La respuesta ante el cambio antes que el apego a un plan
+            i.fas.fa-angle-right.me-2
+            | La respuesta ante el cambio antes que el apego a un plan.  
 
     .bg1.p-4.row.align-items-center
       .col-lg-6
@@ -1687,16 +1692,16 @@
           em sprints
           | , cada 
           em sprint 
-          | tiene una duración que no es muy extensa aproximadamente dos a cuatro semanas (ver figura 13), al final de cada iteración ya están definidas funcionalidades que pueden ser utilizadas por el cliente. En los proyectos agiles existen dos tipos de planificaciones reléase/entrega y 
+          | tiene una duración que no es muy extensa aproximadamente dos a cuatro semanas (ver figura 13), al final de cada iteración ya están definidas funcionalidades que pueden ser utilizadas por el cliente. En los proyectos agíles existen dos tipos de planificaciones #[i release]/entrega y 
           em sprint
-          | /iteración; no obstante, estas se pueden dar en un mismo momento, es decir que puede incluir una sola planificación con actividades tanto del reléase como del 
+          | /iteración; no obstante, estas se pueden dar en un mismo momento, es decir que puede incluir una sola planificación con actividades tanto del #[i release] como del 
           em sprint
           | . Se debe tener en cuenta que en un proyecto ágil las pruebas de 
           em software 
           | se realizan en cada iteración.
       .col-lg-6
         .titulo-quinto.color-acento-contenido
-          span <b>Figura 13</b><br>Actividades de los sprints y el reléase simultáneamente
+          span <b>Figura 13</b><br>Actividades de los sprints y el #[i release] simultáneamente
 
         img(src='@/assets/curso/t2/f83.svg' alt='imagen relacionada')
     .cajon.color-acento-contenido.p-4.mb-5
@@ -1704,7 +1709,7 @@
         em software 
         | en cascada utiliza diferentes tipos de pruebas de 
         em software 
-        | que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas agiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan 
+        | que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas agíles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan 
         em sprints 
         | o interacciones cortas e integraciones continuas, entre los equipos de desarrollo, diseño y pruebas.
 
@@ -1736,7 +1741,7 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo='Proporcionar retroalimentación constante')
         p 
           b Proporcionar retroalimentación constante: 
-          | en las pruebas agiles la retroalimentación es continua de modo que el diseño del producto logre los propósitos del negocio requeridos.
+          | en las pruebas agíles la retroalimentación es continua de modo que el diseño del producto logre los propósitos del negocio requeridos.
 
     h3 Cuadrantes de las pruebas en metodologías ágiles
     p Para planificar las pruebas ágiles nos podemos basar en los cuadrantes del 
@@ -1785,8 +1790,8 @@
               | Pruebas unitarias.
             li
               i.fas.fa-angle-right
-              | Pruebas de componente
-          h3 El Segundo cuadrante (Q2) definen las funcionalidades que el cliente solicita:
+              | Pruebas de componente.
+          h3 El segundo cuadrante (Q2) definen las funcionalidades que el cliente solicita:
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -1796,9 +1801,9 @@
               | Pruebas de historias.
             li
               i.fas.fa-angle-right
-              | Pruebas de Prototipos y simulaciones.
+              | Pruebas de prototipos y simulaciones.
           p Las pruebas y las funcionalidades de este cuadrante detallan cada historia de usuario, además también pueden ser automatizadas, no obstante, es necesario que algunas de estas pruebas sean ejecutadas desde la interfaz de usuario o lo que es lo mismo desde el punto de vista del cliente. 
-          p En las pruebas de este cuadrante, los diseñadores de la interfaz de usuario crean wireframes para realizar en primera instancia, validaciones con el cliente, y posteriormente iniciar con el desarrollo.
+          p En las pruebas de este cuadrante, los diseñadores de la interfaz de usuario crean #[i wireframes] para realizar en primera instancia, validaciones con el cliente, y posteriormente iniciar con el desarrollo.
         .col-lg-6.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t2/f86.svg' alt='imagen relacionada')
@@ -1873,7 +1878,7 @@
           .col
             p.mb-0 
               b Simplicidad
-              | , esto se refiere a hacer solo las cosas que sean absolutamente necesarias evitando el desperdicio, elaborar las cosas de forma que sea fácil entender por otros y abordar solo requisitos conocidos.
+              | , esto se refiere a hacer solo las cosas que sean absolutamente necesarias evitando el desperdicio, elaborar las cosas de forma que sea fácil de entender por otros y abordar solo requisitos conocidos.
         hr
         .row.align-items-center
           .col-auto
@@ -1904,7 +1909,7 @@
 
     p.mb-5 Adicional a los valores XP se caracteriza por la definición de un conjunto de 12 prácticas de desarrollo de 
       em software 
-      | que, aunque pueden ser adoptadas de forma aislada tiene mayor relevancia con son desarrolladas en conjunto (Jeffries, 2011):
+      | que, aunque pueden ser adoptadas de forma aislada tiene mayor relevancia cuando son desarrolladas en conjunto (Jeffries, 2011):
 
     .row.mb-md-5
       .col-lg-6
@@ -1921,7 +1926,7 @@
           .p-4(titulo='Diseño simple' numero='4')
             p Hacer código que funcione y que sea a la vez la solución más simple posible, evitando duplicación de código, menor número de métodos y clases.
           .p-4(titulo='Pruebas' numero='5')
-            p Sugiere el uso de técnicas donde se enfatice en el proceso de pruebas constantes antes de iniciar la construcción del código como por ejemplo TTD (Desarrollo basado en pruebas)
+            p Sugiere el uso de técnicas donde se enfatice en el proceso de pruebas constantes antes de iniciar la construcción del código como por ejemplo TTD (#[i Test-Driven Development])
           .p-4(titulo='Refactorización' numero='6')
             p Eliminación de funciones innecesarias, desacoplar elementos, eliminar cualquier tipo de redundancia de forma que se mantenga un código lo más limpio posible que sea fácil de entender y modificar.
 
@@ -1970,7 +1975,7 @@ export default {
       {
         titulo: 'REUNIÓN DIARIA (<em>DAYLY MEETING</em>)',
         texto:
-          'Reunión realizada generalmente al inicio de cada día donde el equipo informa en que ha venido trabajando, qué cosas realizara en el día y que problemas se le han presentado. Es una reunión corta que se realiza de pie y que debe tener una duración alrededor de los 15 minutos. Esta reunión se alinea con los pilares de transparencia e inspección.',
+          'Reunión realizada generalmente al inicio de cada día donde el equipo informa en qué ha venido trabajando, qué cosas realizará en el día y qué problemas se le han presentado. Es una reunión corta que se realiza de pie y que debe tener una duración alrededor de los 15 minutos. Esta reunión se alinea con los pilares de transparencia e inspección.',
         imagen: require('@/assets/curso/t2/f72.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -1984,7 +1989,7 @@ export default {
       {
         titulo: 'REVISIÓN DE RETROSPECTIVA',
         texto:
-          '<p>Última realizada luego de la revisión del <em>Sprint</em> y tiene como objetivo la autoevaluación personal y del grupo sobre el desempeño del <em>Sprint</em> que acaba de finalizar. En esta reunión se identifican y documentan los aprendizajes por medio de diferentes técnicas en las que generalmente se busca dar respuesta a las siguientes preguntas: ¿qué funcionó bien y se debe seguir haciendo?, ¿que no funcionó bien y se debe dejar de realizar? y ¿qué debemos empezar a mejorar?</p><p>Para <em>Sprint</em> de 4 semanas se utilizan 3 horas para esta reunión.</p>',
+          '<p>Última reunión realizada luego de la revisión del <em>Sprint</em> y tiene como objetivo la autoevaluación personal y del grupo sobre el desempeño del <em>Sprint</em> que acaba de finalizar. En esta reunión se identifican y documentan los aprendizajes por medio de diferentes técnicas en las que generalmente se busca dar respuesta a las siguientes preguntas: ¿qué funcionó bien y se debe seguir haciendo?, ¿que no funcionó bien y se debe dejar de realizar? y ¿qué debemos empezar a mejorar?</p><p>Para <em>Sprint</em> de 4 semanas se utilizan 3 horas para esta reunión.</p>',
         imagen: require('@/assets/curso/t2/f74.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
