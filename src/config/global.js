@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Descripción de la Idea de Negocio',
+        titulo: 'Descripción de la idea de negocio',
         desarrolloContenidos: true,
         subMenu: [
           {

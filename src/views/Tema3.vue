@@ -377,7 +377,7 @@
           .col-8
             img(src='@/assets/curso/t3/f20.svg' alt='AvatarTop')
         h2.text-center.text-white Ambiente de pruebas
-        p.text-center.text-white Define qué se necesita en relacion al ambiente de pruebas.
+        p.text-center.text-white Define qué se necesita en relación al ambiente de pruebas.
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8

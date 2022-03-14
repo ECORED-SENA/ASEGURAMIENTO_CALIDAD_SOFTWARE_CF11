@@ -518,7 +518,7 @@
           | estimando que es menos costoso su corrección.
       p La calidad del 
         em software
-        | , puede medirse hasta la fase de implementación, pero de ser detectados allí los problemas de construcción del producto, implicaría costos extras, por esta razón se aconseja atender y solucionar los posibles errores en las fases iniciales, como en el diseño. Por lo tanto, es necesario tener en cuenta el proceso de SQA durante las etapas iniciales de la construcción del producto, puesto que es donde se definen las características de estey lo que debe garantizar para satisfacer las necesidades implícitas y explícitas. Si el diseño y los requerimientos no están correctamente definidos, es decir que son ambiguos, incompletos o son incoherentes, al momento de implementar el producto va a ser muy costosa su corrección.
+        | , puede medirse hasta la fase de implementación, pero de ser detectados allí los problemas de construcción del producto, implicaría costos extras, por esta razón se aconseja atender y solucionar los posibles errores en las fases iniciales, como en el diseño. Por lo tanto, es necesario tener en cuenta el proceso de SQA durante las etapas iniciales de la construcción del producto, puesto que es donde se definen las características de este y lo que debe garantizar para satisfacer las necesidades implícitas y explícitas. Si el diseño y los requerimientos no están correctamente definidos, es decir que son ambiguos, incompletos o son incoherentes, al momento de implementar el producto va a ser muy costosa su corrección.
 
     h3 Funciones del aseguramiento de la calidad del 
       em software 
@@ -687,7 +687,7 @@
             figure
               img(src='@/assets/curso/t2/f38.svg', alt='imagen relacionada').mb-4
             h3.text-center Planificación
-            p.text-center Se planifica que es lo que se va a probar, es decir se define el alcance de las pruebas.
+            p.text-center Se planifica qué es lo que se va a probar, es decir se define el alcance de las pruebas.
         .col-lg-3.tarjeta.fblanco.boxShadow.mx-3
           .p-4(data-aos='flip-down')
             figure
@@ -707,7 +707,7 @@
 
     Separador
     #t_2_5.titulo-segundo.color-acento-contenido
-      h2 2.5 Modelos de Referencia para la calidad en el proceso
+      h2 2.5 Modelos de referencia para la calidad en el proceso
 
     .bg1.p-5.mb-5
       .row
@@ -807,14 +807,14 @@
               td
                 p Simplicidad
                 p Instrumentaci&oacute;n
-                p Auto-descripci&oacute;n
+                p Autodescripci&oacute;n
                 p Modularidad
             tr
               td
                 p
                   | Flexibilidad: la facilidad de hacer los cambios necesarios seg&uacute;n lo solicitado en el entorno operativo
               td
-                p Auto-descripci&oacute;n
+                p Autodescripci&oacute;n
                 p Capacidad de expansi&oacute;n 
                 p Generalidad
                 p Modularidad
@@ -842,7 +842,7 @@
               td
                 p Interoperabilidad: el esfuerzo requerido para acoplar el sistema a otro sistema.
               td
-                p Auto-descripci&oacute;n Independencia del sistema Independencia de la m&aacute;quina
+                p Autodescripci&oacute;n Independencia del sistema Independencia de la m&aacute;quina
           caption Nota. https://bit.ly/30x66Bv
 
     .col-lg-8.p-4.mx-auto.mb-5.tarjeta.fcap
@@ -1692,7 +1692,7 @@
           em sprints
           | , cada 
           em sprint 
-          | tiene una duración que no es muy extensa aproximadamente dos a cuatro semanas (ver figura 13), al final de cada iteración ya están definidas funcionalidades que pueden ser utilizadas por el cliente. En los proyectos agíles existen dos tipos de planificaciones #[i release]/entrega y 
+          | tiene una duración que no es muy extensa aproximadamente dos a cuatro semanas (ver figura 13), al final de cada iteración ya están definidas funcionalidades que pueden ser utilizadas por el cliente. En los proyectos ágiles existen dos tipos de planificaciones #[i release]/entrega y 
           em sprint
           | /iteración; no obstante, estas se pueden dar en un mismo momento, es decir que puede incluir una sola planificación con actividades tanto del #[i release] como del 
           em sprint
@@ -1709,7 +1709,7 @@
         em software 
         | en cascada utiliza diferentes tipos de pruebas de 
         em software 
-        | que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas agíles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan 
+        | que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas ágiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan 
         em sprints 
         | o interacciones cortas e integraciones continuas, entre los equipos de desarrollo, diseño y pruebas.
 
@@ -1741,7 +1741,7 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo='Proporcionar retroalimentación constante')
         p 
           b Proporcionar retroalimentación constante: 
-          | en las pruebas agíles la retroalimentación es continua de modo que el diseño del producto logre los propósitos del negocio requeridos.
+          | en las pruebas ágiles la retroalimentación es continua de modo que el diseño del producto logre los propósitos del negocio requeridos.
 
     h3 Cuadrantes de las pruebas en metodologías ágiles
     p Para planificar las pruebas ágiles nos podemos basar en los cuadrantes del 

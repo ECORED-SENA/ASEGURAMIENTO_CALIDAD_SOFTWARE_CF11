@@ -47,14 +47,14 @@
     img(src='@/assets/curso/t1/f3.jpg' alt='imagen relacionada' data-aos='flip-up').mb-5
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Empresa")
+      #t_1_1.row(titulo="Empresa")
         .col-lg-6
           p En esta sección se debe definir el nombre de la empresa, además debe expresar de forma simple a que se dedica el negocio y el entorno en el que se establece. El nombre debe ser corto, sencillo de recordar y pronunciar.
         .col-lg-1
         .col-lg-3.order-first.order-lg-last
           figure(data-aos='fade-left')
             img(src='@/assets/curso/t1/f4.svg' alt='imagen relacionada').mb-5
-      .row(titulo="Misión")
+      #t_1_2.row(titulo="Misión")
         .col-lg-6
           p Como la misión describe la actividad que ejecuta la empresa dentro del mercado, entonces cabe resaltar que está en términos generales representa el objetivo por el cual se origina una empresa y le proporciona identidad, la cual integra las siguientes preguntas: 
           ul.lista-ul
@@ -66,12 +66,12 @@
               | ¿Cuál es su público objetivo? Y ¿cuál es el tipo de negocio?
             li
               i.fas.fa-angle-right
-              | ¿Con qué ventajas competitivas cuenta? y ¿qué lo diferencia de la competencia?
+              | ¿Con qué ventajas competitivas cuenta? Y ¿qué lo diferencia de la competencia?
         .col-lg-1
         .col-lg-3.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t1/f5.svg' alt='imagen relacionada').mb-5
-      .row(titulo="Visión")
+      #t_1_3.row(titulo="Visión")
         .col-lg-6
           p Como la estructura ideológica es una parte muy importante de la empresa en este punto se especifica la imagen de la empresa a futuro, con el propósito de motivar al público e inversionistas para cumplir con las metas propuestas. Para la redacción de la visión se deben tener en cuenta los siguientes aspectos:
           ul.lista-ul
@@ -88,7 +88,7 @@
         .col-lg-3.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t1/f6.svg' alt='imagen relacionada').mb-5
-      .row(titulo="Objetivos")
+      #t_1_4.row(titulo="Objetivos")
         .col-lg-6
           p En la estructura ideológica se presentan y describen los objetivos que se intentan lograr. Estos deben ser determinados teniendo en cuenta la misión y la visión de la empresa, pues forman un componente importante en el momento de estructurar y diseñar una organización. Por otra parte, cuando se definen de forma correcta los objetivos, estos permiten que la organización se centre en la obtención de un fin, pero objetivos definidos de forma incorrecta generan gastos y retrasos innecesarios. Por lo tanto, deben cumplir con las siguientes condiciones:
           ul.lista-ul
